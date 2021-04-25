@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "csv-parser": "^2.3.3",
+    "csv-write-stream": "^2.0.0",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.1",
+    "node-ssh": "^11.1.1",
+    "perf_hooks": "^0.0.1",
+    "puppeteer": "^5.4.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-recaptcha": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.6.2",
+    "shelljs": "^0.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

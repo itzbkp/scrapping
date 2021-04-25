@@ -1,0 +1,9 @@
+Data,XPath
+ProfileImage,"//div[@class="top-card__profile-image-container"]//img/@src"
+BackgroundImage,"//img[contains(@class, "cover-img__image")]/@src"
+Name,"//h1[contains(@class, "top-card-layout__title")]"
+JobTitle,"//h2[contains(@class, "top-card-layout__headline")]"
+Location,"//h4[@class="top-card-layout__second-subline"]//span[@class="top-card__subline-item"]"
+NumberOfConnections,"//h4[@class="top-card-layout__second-subline"]//span[contains(@class, "top-card__subline-item--bullet")]"
+About,"//section[contains(@class, "pp-section")]/p"
+CompanyWebsite,"//span[@class = "websites__url-text"]"

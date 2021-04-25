@@ -1,0 +1,350 @@
+#1 | Connected | 50.18.8.79
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#1 | Disconnected | 50.18.8.79
+
+#2 | Connected | 54.219.162.183
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#2 | Disconnected | 54.219.162.183
+
+#3 | Connected | 13.57.196.43
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#3 | Disconnected | 13.57.196.43
+
+#4 | Connected | 54.241.160.97
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#4 | Disconnected | 54.241.160.97
+
+#5 | Connected | 52.53.184.77
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#5 | Disconnected | 52.53.184.77
+
+#6 | Connected | 13.56.165.39
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#6 | Disconnected | 13.56.165.39
+
+#7 | Connected | 13.56.19.125
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#7 | Disconnected | 13.56.19.125
+
+#8 | Connected | 54.215.63.208
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#8 | Disconnected | 54.215.63.208
+
+#9 | Connected | 3.101.27.28
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#9 | Disconnected | 3.101.27.28
+
+#10 | Connected | 3.101.113.146
+$ sudo docker exec -d demo_1 pm2 kill
+
+$ sudo docker rm demo_1 -f
+demo_1
+$ sudo docker exec -d demo_2 pm2 kill
+
+$ sudo docker rm demo_2 -f
+demo_2
+$ sudo docker exec -d demo_3 pm2 kill
+
+$ sudo docker rm demo_3 -f
+demo_3
+$ sudo docker exec -d demo_4 pm2 kill
+
+$ sudo docker rm demo_4 -f
+demo_4
+$ sudo docker exec -d demo_5 pm2 kill
+
+$ sudo docker rm demo_5 -f
+demo_5
+$ sudo docker exec -d demo_6 pm2 kill
+
+$ sudo docker rm demo_6 -f
+demo_6
+$ sudo docker exec -d demo_7 pm2 kill
+
+$ sudo docker rm demo_7 -f
+demo_7
+$ sudo docker exec -d demo_8 pm2 kill
+
+$ sudo docker rm demo_8 -f
+demo_8
+#10 | Disconnected | 3.101.113.146
+

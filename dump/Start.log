@@ -1,0 +1,1462 @@
+#1 | Connected | 18.188.207.214
+Success | package.json
+Success | .dockerignore
+Success | init.sh
+Success | Reset\Extract.csv
+Success | Reset\Failed.csv
+Success | Reset\config.json
+Success | Reset\Retry.csv
+Success | Dockerfile
+Success | XPaths.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:3277aa71c4884741e6a34f3a2e66279a7d71256a75252c2439d2af85414c35ee
+Deleted: sha256:1a7de3b1193aae2274ad0ebaac76714103f81c3300e6168b092f1a8995cfecb1
+Deleted: sha256:543c6e413ccff2a4577b2aeb906f5a2c36c6f707faf08b5cfc122641aedae65f
+Deleted: sha256:534b34aff072f17168bf241fa89a75410f67e2872a8e452ce5acd11ceea56aa2
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+2872a6fc0beb22a00f71079d7b75e7734dbdc6349193c2ca28f450be7fe982d3
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+b1d1904b513056edefbd442a21a7c991d2c0744c832a95478da47d660f9cdafc
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+11f8fc285a5b675a005e805557cca1521ef6d940b82d64e81a9b75948b3e6f69
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+174346ffdf32ec7d2a7e8075f5c1bbbe3779e273f87e45c7c4a1c092cfc2f7e2
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+f8d6b47e81fad7ebe38399d9ac792d4d14349ee642eaca69bd0e35dfa1816679
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+36054dca9edf95c89b6b2a069f96eceba61e83c7448ea8e94308318643537b34
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+be82b0b8d05badfe402b8fdb815a48f46ec45703740b78bcf6453b458e8b04dc
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+4056128ea0fccb088278124ceb2ba4abd99df166305f747e9051dc8b33888a13
+#1 | Disconnected | 18.188.207.214
+
+#2 | Connected | 18.219.74.225
+Success | .dockerignore
+Success | Dockerfile
+Success | init.sh
+Success | XPaths.csv
+Success | package.json
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:92541342c1d51301f16206e5b26399e6972d6c0beb0a281ecd737ad066c63b12
+Deleted: sha256:41ce061fce308c8158e16348f49f016cb9ac706acf22fa1a8c4d5c3686c18da8
+Deleted: sha256:25e76d60dcd2bad603ff0734f564a956d8caa7791986d2a101ff3b402f5ff3bb
+Deleted: sha256:3486e3abe1b55265b43c099321d130bfa797085d87414d0b7537526c8868070f
+Deleted: sha256:deaccaa405530413946334ba966f0377f11db2e2471581d6af2b5c0f4485f889
+Deleted: sha256:33b81cad827262f336f03eb8b1f9f51986d67f48fb92150a128721d39ea9667c
+Deleted: sha256:f5480983b2f2e766610d5831434ddb7f02426f1fbfe1f924fdcb6fee11a18aec
+Deleted: sha256:29bd12cae9ee7df2d24206f41888a597bc9f518c54a8ad92c5c0a5dabd2050cb
+Deleted: sha256:f782f3b501a3272380a057f533f2a21e5444dd5a4a6f1c5c4430429e7cb5f7dc
+Deleted: sha256:122941d0aaf0f4feef6ea3ce08ce4c682ec744fc270af73c2901acf01a11078a
+Deleted: sha256:89f258281e51fc4cfafe85b9fe3527d26f17a7645ce10c5bda4a753044f3c132
+Deleted: sha256:87212c8d728034bd8117093eecec2f1aaff47f42c2aa9d5db2937376a85f9709
+Deleted: sha256:92c878352dd6452be2600fc51b07863f12d52bfac810666348db04a99f6dbd0c
+Deleted: sha256:b574fa04131e6109e9b0f0d9eb08ddede11d918af4f6da6daaff2688ebb31e46
+Deleted: sha256:b2932046287a16162eb5f2af1348a8b462fea55a6711aff4adc9c9cceca158d2
+Deleted: sha256:1f3245eb2c413093ee687344178f78d2507ca807e29b2700f17daf153a2f28a6
+Deleted: sha256:bac752fabb4bd7ccf83c9904eeee50d5d5ad55800687493fd5ec0e91edb0ca2d
+Deleted: sha256:79c1d3d3bc00f0dc230ecdc7fdd371619ae55ea14c4620f5f95c7d517a190387
+Deleted: sha256:bffbf9f28eb630b17ad1eedb146a095f3f37aab2d3f5b7c1c0f4a3fcc0f9a056
+Deleted: sha256:9d14df4ce96ba7d1cd4d24252753f0a9fcd759d7516674b038628484eba1c4fd
+Deleted: sha256:acda93a0d2860a2104443d756fce65ca9f55304985932cf17d1f85c18c8557d6
+Deleted: sha256:cc9e1cfdf869155ce96716ca7833523879de39ab73d3fc754f12ab698561ae05
+Deleted: sha256:416f48e80cc8b6187c413e6c8eb367d66b7a0ab7e8016bf916ca8183ab8e6276
+Deleted: sha256:883f712f4179f3009202b82822d37189a79ab5ba926d93e4d363794644449b61
+Deleted: sha256:e782afc6baf2ae377feeb8fd670997e23013edddf34236a3d7939aabe4945926
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+4fbbc4ecd0bfbdd2e042d74ffe8abe80458d545bdc1e2d9d8d8ba8cd375f2d7b
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+d6adc1ca89d22c88596dce57c106c7a1dea85d4f8c6b3b5a5db95696c22b5482
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+806aa1aa762aff25c589db3eeb3487bbbc994f48ba6d4813c71af4235bde1457
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+548945c8fc7b3ed9fd089d29f8b4afa5c3bbf19a8c5fd41dc1fd830765c8dd76
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+25aacc6784f31a5c382763d55f56ec34bb30c385e19dabe03c1ae5a1b8ebeacc
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+b0f194aaed1dfb3396429483df5d338e672a5c825e1b3b38f518af8f02d259a8
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+959d600dc0ed2c84f34cffccacc3252bb9b86a9f81452319a2dfd2ebc20541d6
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+c725cfcf87085b0ec4a1514fb9f751e29ec2fdb91b7690b1c731012e5a4d5e1b
+#2 | Disconnected | 18.219.74.225
+
+#3 | Connected | 18.223.32.0
+Success | .dockerignore
+Success | Dockerfile
+Success | init.sh
+Success | package.json
+Success | Reset\Failed.csv
+Success | Reset\config.json
+Success | XPaths.csv
+Success | Reset\Extract.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:00bb92e7f2bea9627e86ffc39f218f879033b6f3856e41b90de83ea44411e9c0
+Deleted: sha256:9e8701467286d908d8824bb438a246a1e4f780e70ffc3cdec9c0a6f665ff6eba
+Deleted: sha256:7156b6d85ba8950b39b8b3cacb59c512409b4d21f797a1703d558239f00752a7
+Deleted: sha256:e44c8e303cfc3c0eace083142fc6a13b22715d9346040d6128c59a66f1e344f5
+Deleted: sha256:6097a8a13adea2f2e85172ac630b57c5ded2d41fa9a1752d9376f180219e8e5c
+Deleted: sha256:4ef58cceb649a400254665730ad045776dc6f887dd5b6f08b796a99ecdf93fc6
+Deleted: sha256:979eea2d283578300617301aad2cee29cc31b073ccd2ea0a12cfe3851e53a465
+Deleted: sha256:67da3ae26d163a4d1dd0ac44901ee24027eaf2a27b82404b458d638b1bfde510
+Deleted: sha256:8b932f19283d7c969e66d9fb911a8811a22c69955b6dc982aa4e6b00271ef716
+Deleted: sha256:0dd42966bd0c6a3b141671e78f471d40c08117ea0a90a95bbe5244768bf5c62c
+Deleted: sha256:d7ed00dca09d46a85b7d6c05ac46c93a121d0109593ead076732a0991e626a96
+Deleted: sha256:7074405ad8be522c698784d3d2ac3a97405af88a8e644db8ae5faacf216501b7
+Deleted: sha256:62f87f5e604331c8a9efd2192b951bfff5fea2e54b3851eb017f124e6b850ac1
+Deleted: sha256:4b7afbeda1a3802771815430f3588cb2fee145623d193c78101baa8c955cb8e7
+Deleted: sha256:9bd11cfa9f11beb0cfff1cde216c7324c9428827b8481441b8884eb5ba6541b4
+Deleted: sha256:3b7cbc0ef8899246566a3019829151168ecd27d59e2805a6df995a5de9d622aa
+Deleted: sha256:085d95f67ffba615c51fa956f5b00295936b2bec6c3642b50481715ff17e3109
+Deleted: sha256:a07f5135a932d190f2023f457a8fde0f28a179ec405e92bb3124c4a83f43d325
+Deleted: sha256:3736a41c3d97dbc5d81eb9d99abd8cc24506f41fc0863258c19834ce562182d8
+Deleted: sha256:9f913bdcc91bca825f277c09d8380e188ac9c917cc1d9b0a7ffeba3b217d5ad9
+Deleted: sha256:78b9aec101b00a9814c85ffc06266ec7887d554f8414c5518183429b97fa76ab
+Deleted: sha256:8757deb898e4cc3e578f2ef212139ea6d17bb86f6b658c8685158974e1c9d0a9
+Deleted: sha256:303c26f15542d680bb29bb68c6db590f6896647f2278353aca7b044a46af4ec1
+Deleted: sha256:015b7959fdd980203b1c5706a210a4065cb3bfa7da2cf930db0796d578b498cd
+Deleted: sha256:d2e13fbb7d35f818402ffdf303c4337fa7283fd2edca19d3c5911c10233c1f15
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+deb89e527dabb308727f783a96e1263622faf7b7f7fa053d85193fac7de41e3a
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+91a7f752f3e176f5bc84779923af15ccd345d659b42bad6bb222eba56a5f494b
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+79ab1b584051507aeddfa7e3c3c29e2ec101358be1d1392be8fc3bec722ee258
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+ffb3f7c039a555b20066c2aa7d81399fff1e43e9a8ff4fb221bd34fe1fc029bc
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+b0ea0c8f0d82e6d07ffc10849e1027a008450613d317adc73b2d4c5e0f7556fe
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+ac804421956da15a31d3f628e00792f7687f48802c960b67e0d76f11f68f0ab8
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+1ec3c47fa2587f11051a08d4e2932e967b6a88d6e3f8340ea80ad66197ebeb3d
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+a41d80b3077bc5047da206638ac1a382fb555219d8cc305f85702624870ddd53
+#3 | Disconnected | 18.223.32.0
+
+#4 | Connected | 3.139.106.50
+Success | init.sh
+Success | .dockerignore
+Success | Dockerfile
+Success | Reset\config.json
+Success | package.json
+Success | Reset\Extract.csv
+Success | XPaths.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:8d09c1e6ffcc0f956a741f70e2d4259a0fa5ce0b6abf1e23046b87b5c5d06d10
+Deleted: sha256:fa02ccdb415dfe1cca48b08b0565545853f569c2ca0c7ffb9745b938084c0169
+Deleted: sha256:f2681321764919be5d94dfe610c2263ba538f12dca5917b8b72a7ff1322548c3
+Deleted: sha256:c65dca2a10279b564afba455d97f09bd658dc5451bd02a7cb533d6535184949f
+Deleted: sha256:34edb3c102c41c52fd0db6570fbeeccad25650f8e59c0db0f446a4a93f744490
+Deleted: sha256:8278d906f5a5a357ddee4c2a7a943c7b6ba8036faa158476411a8e7002813ed7
+Deleted: sha256:65c68e08d2fc87d1e56af0db9cfd5692838923e071b8f33a3e3ff0b21844e376
+Deleted: sha256:841af88d345d3d06cd62a6d2c019bd962e7915ff3cdfe058aefa85bc13aa1daf
+Deleted: sha256:7848baf8a87f632ffd745c1d47c291abe64598c153e1ae750bb9589583fbd15f
+Deleted: sha256:ec6a8f51a464c4d2c82c4752e739a3bfba58239e7160bcbb96024b99553d496d
+Deleted: sha256:aaaee5ba3ceebc6b36681f0bb0a35731ec6f4218181a492a95235b0277b6dae8
+Deleted: sha256:cd1d5a3cce2c9c6863fd537339cd99322e5427fa6c4dc6a2cf09053b3b0161f7
+Deleted: sha256:2662128b852fe70db0838709c3b4deb0c57dff3fdd38d70547f859d7cad3e873
+Deleted: sha256:356d9a66d23983b986183aa6e65d256c54c535086c35f41c5386009ff248a914
+Deleted: sha256:8ccaf49701fff894b869a1ab8fe387ed997532a6f62ef6463fa71681fa222bfc
+Deleted: sha256:1d820ab59a54b7fcfcc63189494367d7ded0b04fe90282f4ed6cfede2573f58d
+Deleted: sha256:b514ff3a9d700e1527373598bb76f68fd18fb212ec585f35c8619a34cbc33e81
+Deleted: sha256:882dca4863dbe815a268b10a44b5a56f68f0af47e3d77592e2dc510530917f01
+Deleted: sha256:992efdbbc4adb28ecea5c5ca8f9213b0bf908acaa2c38146dfbc3b69348057a6
+Deleted: sha256:93cddd701a4a9fdd2f3bbaa74fb84296661217f9fd8c09837095b46701b0e0ff
+Deleted: sha256:7f8481af10f92ce89b7638656f5e9876d8f559ac983c6b2df5129c2d666a9e7a
+Deleted: sha256:7d20181669e60b0b3f860c4ca8a24c50e71d93969b76b5512bed4221fd0a259c
+Deleted: sha256:0e57033514530df288c9eb1f7e1de6a9e118072898911747064d3538c3f0ef3a
+Deleted: sha256:cd5a89b6f3d3ae406c4bee86018d94d489e00c8a800a8cf2e2c863f9f6b71dcc
+Deleted: sha256:5bd096160edecf71b83f033c3369c92fb745386c74647c98e1e51d4bc33c6572
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+6bf08dbe80fc2eed3b39e41a19b8e8a174f5474876ef37eab9e8e4fd93392cec
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+2d7964fb077ad2923de93dd1a1a53a1b682c21a5c2b601f8dba1d0f9f8647007
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+8f047846153e409893b91b8e988c270810833c13dfe3539943c9b3b451f061b5
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+158f2f878e920dc6755e0de621228fca50931866c2575eb3778543dfd6aacc65
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+9b9194477714177a79f571587f23ffe2dd1cdcb80f208dd137f298a75500b312
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+b5e58d534efbfb76a78c6d080647990a62770cd33b896f30d7f29884c9a32a53
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+00517b028a8af7e0c93840a8b78769076b47d049236c406113ddbe0917d9a382
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+d14ff74926b9f17ca94ac83d9fe36b6fe7fb4bd4e30519be1644a08295553bbe
+#4 | Disconnected | 3.139.106.50
+
+#5 | Connected | 18.222.201.79
+Success | .dockerignore
+Success | init.sh
+Success | Dockerfile
+Success | XPaths.csv
+Success | package.json
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:b9f86f16e8b316bd789d2a7c57a6abff1577b70486601d64cf51ece109010d60
+Deleted: sha256:1f693d7332fcbfdf0274142e003f077d258a7e9c497fe877f433c2aeba190f54
+Deleted: sha256:ea9a3273eba185884553f92391d59518b76edbf2f2b8d59d28f58bd696245bea
+Deleted: sha256:aa18ccc1ff4bbdf7b47aea5f70f61e6bb27be3a8844a960ed7d4bcd2e3466c91
+Deleted: sha256:88d392cb028627b20d5ff2bd54d800653ffcdbb22adc0dc2568634bb2d876dfe
+Deleted: sha256:c3237c66adb41d4a264c1b389f56713f592d76cf88ed3bf24625ee7ba2eaf953
+Deleted: sha256:1e9e3cc76dd7e9be1f09beb501d56d6f9b0b111626025e295f7b2eaa38f02b07
+Deleted: sha256:5f27f8bd6e14b5a6590da7577b2b9e140b623fcf52ead999e9e045c63c4d5bbc
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+f50d3fd165aa4c313ffec473a0a9161699ffa9077b102da0419ac94d014d71cb
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+c9e9991e4cecce15f208400360c91b9a497ce34159c91b6e42c8e1221d84965f
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+fc2a1d96cc852346b042d811eede372845de2f3e16c6dac2fdc8bdeee6581729
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+d878fb5f8a237214ed5043dcb5df520fbb85569135edbee2edcd00578935bc49
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+31c1f382e12211e4e822c050954ce4dfcfa89f578efe622b04101686155b38c3
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+105fc2db0077b79f060da76d4a940f3414b81aed7bfae495b402c0854f163802
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+d7321a9ab19104b3d6d2d7cdc0830359f3ed0246e4354c0dcbeb02952f26132d
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+20b842760fe4186f0b07ba0ea85a64ba5d813cc11f10f9a703570e5c7a8841db
+#5 | Disconnected | 18.222.201.79
+
+#6 | Connected | 3.142.68.159
+Success | .dockerignore
+Success | init.sh
+Success | Dockerfile
+Success | package.json
+Success | Reset\config.json
+Success | XPaths.csv
+Success | Reset\Failed.csv
+Success | Reset\Extract.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:fd0b2846dce2bc9720df0e608647f602dd2f556abd673af12f0deebd44f89853
+Deleted: sha256:8c58e44e4c0c132f76bd69ccbec7680c5297cd6b231628be3529c85a095f130f
+Deleted: sha256:66b11fd4a0d35eb5e4ce7b0aa9c7d17f1a4952e016e240d480676ffee487c3d1
+Deleted: sha256:8d8b96308f9d3a22c087e21f92b9274b8c8245fb6d4263a95ff4a78b177dbda9
+Deleted: sha256:378ad3d87b53791caba33eb6d4c777f7fe2756cbd7742d6052090f7dd3b73bbb
+Deleted: sha256:a3a60a6efb2fb8db55c39a16603667f6f1fee2d6f39f96552d96b5864cdf5868
+Deleted: sha256:40a2c8ad5783d553c319aa8bbe0f2d79083315a9d3ace83fc41e047c4583fbd6
+Deleted: sha256:fb117b91736382dd66329591a6d484c0a226754e9c5f93e18b15e91fbe70670d
+Deleted: sha256:6faccd4a2829a4e71ead7d122fdb45aa2a1f5977cd57643292cbe1e721e76615
+Deleted: sha256:b2d675b8f38aa798b65c66301cba1b6d9f5d3b1ad9e19382b7c6862ee023a4d4
+Deleted: sha256:d60038317291c44860a68386848f5ab9d72af2a538ae488b3b21f745ede0d704
+Deleted: sha256:44287ed0132b111f63ab23a68ded1bd14541292a0be473987b0085091dc6d400
+Deleted: sha256:cd4c29fd5e6606e41ce6dc44ad587ee22fc1cb9139a048d7cd5de59a93d6cbe5
+Deleted: sha256:46b3e77f57fe565d57be371a9b0a620fc44fe9283d78dd9d6eeb319cbe20fd8d
+Deleted: sha256:bd5fd24757d562b8ed24ba46b8e8409cd89e858d91ed587747518b69702048f8
+Deleted: sha256:4e3f6693ae7a8af7d1cc4883ea0107bc8ef0d057e40e6218a14ce7c95526bd04
+Deleted: sha256:97745ae7afc0e75d42b6bedcfd4466d6c79b6681791da24b3a6bf712dfbae6b2
+Deleted: sha256:f93e7ebe6cb4395fddfda456835c9d947b9d74f41ecefa9e44e0abeb55664b50
+Deleted: sha256:24bb240618bf41aae2689ef2e6883afabf6ca13df625112adb0fbd2172929938
+Deleted: sha256:86987949dc735b10c8cd4c85ca0d2ce15e33e4a4b01428d98e421b27bdc6640a
+Deleted: sha256:bab2782b03862d723b495c35d2465bd1d836a93712f13f7aa1566929c88abc64
+Deleted: sha256:09237080397f6ba9ec7ff39d3b1863e6e959c05f9c2ff1b36d7e53afef44af56
+Deleted: sha256:af74eb0679906ebbeb7a403ef402433291669ac848df1024e75aaac4ff430c1c
+Deleted: sha256:cabfc90b088253a963094c1893a0e3f5cd7e2c69d6d2150e8e8dcb0c28586040
+Deleted: sha256:0b8c88a6fcdb4ef50f52e56f33eadec56205d1193b7b33b850c77cd15dbfb32f
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+dacd98b8328112ebb7d90a1d9e96eb278b73524463d317f56a13b543cbd61e04
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+b0cde761423fcb099e75be2e21f3a876fafa42aafa4d91ac3ecbc470ac2623a6
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+4e3ca0d87e1fe97e320c72caa7f8f2c279aa36a22693c4a924947d843d4daea6
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+ee3488d23fa8bd22b74e489e47364c166b192dc28cab6beb9ff7b198b646c802
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+a6112dba20153d1fecdcf0a1590deeb22ba88a29da0f2406f3d3f6b01546bec0
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+6ce171ce2e747ea13ca1bc07541a7b6ebcad9a04e84e1df1998878fc04809194
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+1c31a15b60c19a9b82b4599e93d38f39ecd48585ac58bd316d02765b89fc1999
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+f17804a164aeba10d89fe15c6338418ab9bb528fa6cf6bbc839a18031b8bee4f
+#6 | Disconnected | 3.142.68.159
+
+#7 | Connected | 3.23.130.167
+Success | Dockerfile
+Success | .dockerignore
+Success | init.sh
+Success | package.json
+Success | Reset\Extract.csv
+Success | Reset\config.json
+Success | XPaths.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:cc19b068778cd604100f7de91242b265f1ca6c7c2ff7724ab57badc3cbb695b1
+Deleted: sha256:1a2658abbc24071c1327cf5bcc83e6bc354430b155e18bfe7cc2fbd22b4aa43c
+Deleted: sha256:0635bd337ee3f9e17e6d5cc7f762b91b2d1b9fafa1fd17e835dc7a79d1a5fcda
+Deleted: sha256:efb94b7c3fd0fa50c5719ec43a6ab6dba1cf180effb8b41af78a9a41d7e5379b
+Deleted: sha256:bcf7d38570991cc5bff9880cb130b32c80d184f0ac30584f2f7e8cca40d22347
+Deleted: sha256:112391ee2a00a72d151a554dc7627ae1f423e5f5a95b1e50d07952bc9a87c3c0
+Deleted: sha256:96dcb3b0a2ae9346126368a00a425f8c36e3ea7df94259712ef92646297c96a0
+Deleted: sha256:c490ebdf831bdff00ddac766cbe571b6ef4c6405d763fbcd2379ede6e9b1f52a
+Deleted: sha256:2329bac1cc6cdc75da6bc4450510090a699acd54d442612791a7c77c38e4c3e7
+Deleted: sha256:a6bbbc7ddf85a710957e292ef1861dcafb0c8f0431a004ce1775fe8bd2ba4400
+Deleted: sha256:1786177c9c233d379a0d40ee27a75c3193d64230da7976c708ed424ae4f39eae
+Deleted: sha256:ae144702291e47a017e90f0badc3ee19bbe66114c78be816fd55e970932de89c
+Deleted: sha256:2a21eb18242b8a910b528923ba731e59f1e6ba643c813d84b75bf1238fc1c9e2
+Deleted: sha256:e885e161616bfb3dac10ffd9cc58e69732b1bbd69057d8099ff358ad963f4a3d
+Deleted: sha256:0c19b78531c7a4a1345f4c943b542969eac3ca72404d2947a26ebe5926bb881f
+Deleted: sha256:0716b5be5df56c4c6d54a4649447dee68fead0a06b268ed1ac3609c3ad6bfea4
+Deleted: sha256:912b402fc781021e04641d440b3e789e78329fb0b9eadf7c99afa2bedc54d258
+Deleted: sha256:166210d3c9165b8f8b65cb572d373d15ab64fb7a35a5ff1f18760bab5dbc1cd5
+Deleted: sha256:37b8a216c44b2b7739799d00015c4cddbd157e7c9a6859c3ed93432119bdfe9f
+Deleted: sha256:632836d5a4a919d416125f164f0556a52ef8a29ae8985b8860e41cbdad38df5f
+Deleted: sha256:05c820bb3b9eb6a604cb299b6619ef1fd5f74e69473a9981045194469ff8f591
+Deleted: sha256:dfd255d32685ea67b9b056f2dd778ffa69b36e241ebc3a5b101fb54dd0a3414d
+Deleted: sha256:7c88ef0998e068c612c685b59f76c40deed87897d0776701148083372aa3a2d0
+Deleted: sha256:df64d03a950a16a1a3802b5beab08a4bf624baafdd418d4e100d2a407a0bf62c
+Deleted: sha256:d3dac56d428c8af80dd4e4c94ec8bbe228ae7392ce6f5b4da370da266ca9c406
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+9872d592ea9e735743dcf6e5864b3bb4631e6583c78a9812be537466d78746cc
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+5abe3f70ad5abe34a94778a6897090f9c13870c8acd1bad59ad2175b50733a5d
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+0409ec5535c08707ff553bee357f4aa626c2302c45f62dea104580e14d406ac8
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+51d6e8cbbea379761d293a2b64e4de0647115afd4589d03fc97d31bea48d3dbb
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+12fed2429ca997708eb2e3a89d94c73d9277361a2cf168f05baa07a676d5c17e
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+2787ed228bc03578105d052592fb8ef7544a45e7957271985467dac6d25b03c9
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+d972975244c6b3b30b676fea554d07673f4d2aa272907b9894d88587b0684ad0
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+c39ddff48851c37fb65c3bf8517fc96de281fb80af684c03b82e7bc225c5a64e
+#7 | Disconnected | 3.23.130.167
+
+#8 | Connected | 18.218.238.138
+Success | Dockerfile
+Success | .dockerignore
+Success | init.sh
+Success | Reset\config.json
+Success | package.json
+Success | XPaths.csv
+Success | Reset\Extract.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:11bd7175da5389e1ecc5e5fa847a78a811f71a2eddd71f6816c4709e0bcef64a
+Deleted: sha256:8c0e62f7154d81b046426bffdb483403382593a940da9fd6fe50d7d85c77ec6a
+Deleted: sha256:5c386ff71beb2f0241d0d26ed791365897e773da08e28d38372dfb82fbeda006
+Deleted: sha256:8ec9b7637724a31b438caf73dfacfe67de07b49103754907580af05f412c81bf
+Deleted: sha256:601c18c59e824e6ee9582f1680c7b7857da1ad9067e5fdbe49efa3683a640c8a
+Deleted: sha256:e242f1243fd33c8ae43fc2a42b44341e94d17dc3eb3237a02e36d9ff859ec8ab
+Deleted: sha256:5405944dcb8ebbaeaf733e3886ed29b2fab591ad7cfa13ba24238d05462142bf
+Deleted: sha256:fef1378fd706ba27b199cc7e5d97914b1a0a0f4935239f44973f771d53f38b79
+Deleted: sha256:ef764315c9512f3bfba8f4c1036a514af80e697699341a4951fbc03253f645a6
+Deleted: sha256:8a4c21cc12fa3abb9db8512dad38b3ed2b5a08489562e7cdaeea46cdde5ec78a
+Deleted: sha256:4dd9c4ebca041e3da7f352b425a7fabd8ba1df69d5d084f756bcc9d4c82f6e7f
+Deleted: sha256:a901a5e851bfea16f424252fc39526ef05a526ef779efd80874007e52dd77e5f
+Deleted: sha256:9a755de49817920ae99403c9e577916857be87bd422c49afc4ac6b777c2ae037
+Deleted: sha256:99512ed700888c2bde48b86dd256b233e903dab012755cbad17cc7f103bd55bd
+Deleted: sha256:b580ff3036feceac002f77b18030257a2971a7652a3af48480d5dae577d6ddff
+Deleted: sha256:542ad5531e13011a757eaac73aaa2d218c2f4c04f2ef125c8afc901c37c0e838
+Deleted: sha256:c7184bfb906680879f996ccbfbebe24c16fea99589b60a2c6edf84d877c1630a
+Deleted: sha256:43715e77a2ca667ad4de6d830a5446cff4efd890ab86aa9efb9a40e216142f74
+Deleted: sha256:9fd0a20389919be771f97399251662c5251baecf2ab73eb632a3e9e0441cbc69
+Deleted: sha256:c213e2891cc5aad631576676df4ca03fe25305c06610b91f313a84b38034b54f
+Deleted: sha256:077898767a03212c6a433f315d854604eb908b97eda4913ad25f8d7858288abe
+Deleted: sha256:52831ccb7debe1bbbd621b25e609908d826fca96d40504e03c2bfa50f8aeac5c
+Deleted: sha256:19d2b2e949dd29acdd4aca7876ffa9dc49823abbc5d644d475803ce0da2d2d1d
+Deleted: sha256:b3f668a6c99cd34f5d3484413284971dd787385a069198cb4bee062b79230b2e
+Deleted: sha256:8e0e4a19637ea3a3e43c111e3e04140d3ab501b285dd40a408143a36f46c0e60
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+8becc2cc148fe8a2ad6d72d7e799661914d6b883986d37d4047e65cdf7b61281
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+e6e31e5756bd5c0e64382a1a0e9951ab8dcb77601cb9ba10806c66c18a5b1296
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+e732c94b0facc53972efc6ae9ecc1f5cb1c6bc7723f96905263b4e4a34ade1f8
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+b90cf1d2794fe0225e5d2834fd1911b9a837d56aebe7df63ec6907335c3e5229
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+fcf6619a41c0433048242f609e9c510d0be1a974cdef9a8da1067d5ec300dbbe
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+b547b9662c4212f827076cf663fbcab19b8288e7568f2470fe6b256784930e99
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+ac523dd6f0f5074f64127dceee55fc1eae0cc2930df2bc4c1936df5bb949196b
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+e2fc467cff5ecc87dc2fe1057f849f1304909d1cae9828d3347fcdbeee7c0580
+#8 | Disconnected | 18.218.238.138
+
+#9 | Connected | 3.16.44.23
+Success | .dockerignore
+Success | init.sh
+Success | Dockerfile
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | package.json
+Success | XPaths.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:48603351003800392025d7d2d5d976b1b16a8af6ccb789838d156933879fb7aa
+Deleted: sha256:0483b0d6c0f1633f6e6a5e0cdf24a05ad9cb0cb2560bfeee86b3a9109c422d46
+Deleted: sha256:e4ed215e1eb610160042a220d2d291dac40f992295d4cc63417f371d88a64c15
+Deleted: sha256:54613b84addb4185d602cb965c1539e5d5adc8087337c6ae3faaa097bc858f84
+Deleted: sha256:f212d74dbb1e6c91d30cec59b0e02794cdec9a09ead4c3b00786d25c4f305d66
+Deleted: sha256:7ea3218b437a0d9a2bb29bcd8364b83340edea5a63942f2bd7b67ddd8325d6b4
+Deleted: sha256:bd7a2697066a7d0a619aaa3ffddddf0f98f59d6191b49f9c9c982fe0690d9bfc
+Deleted: sha256:b17aaaf3346a66af65925c08b49621c6168bc0165f422c0dece66dfeb7b3f1e8
+Deleted: sha256:515c50a98d9652aa8917e137f37d62be4c710999cad3539d93a6ac14fa679fe8
+Deleted: sha256:a4cf3e4bc58f6126cb3eae66e52347186cc1b167969395784dc357f501b4fe92
+Deleted: sha256:d50df343378df18a4cf5c4d7265b2b944cbcd71e6e6e34d79ffcfd9735c2bd32
+Deleted: sha256:b2c4723072c0267aaef114daef2772080d584b2bac50b0cb9f14ee47eb8b12ec
+Deleted: sha256:f4fa16ac915a591f8f35785da1eedcc4fd5f4f20cfffafd79972b3094f49bba8
+Deleted: sha256:b3df4fb4fb0a1ea71f98154e342ca22df87505e3b874d1a467f43918bf3d5dbb
+Deleted: sha256:de15828603271df34aee83092506a0d16afd7e22242dbdcdf8ba7c62f98f87ce
+Deleted: sha256:b63534b3ee5280ec055ad6af9aa109b2a108f2c018f59cb11ba1d9adc4fbc7c5
+Deleted: sha256:263d92a28dae138354f3b8085a3061e88ffd00625e349b226d27cc21329d1072
+Deleted: sha256:36d13665addb02f12d172f079de30928a8e800fcf7a6bd307be7418de826100e
+Deleted: sha256:5c45bcbf840cb56c2ad55be71764518b5ad15dae6227b0468bf6fbacc94e2bc7
+Deleted: sha256:8180fdb40b34b95f2e638094caea4c8b72cf6e13cdeddc6aeb4d6e142f27996c
+Deleted: sha256:66dca7b2550ffefde060ea2e51638f5d36dba23af59effc11d8e628a22bdeb08
+Deleted: sha256:140b3bacec7be0136c55824c5699b5e37d3159c6353cf1be61c423e85719e4d8
+Deleted: sha256:c68ba22883077fc0bd9fad81bab6c8c799f2dc1327ca98f90469ad13f6dcdf6a
+Deleted: sha256:a6e316e9e5d0b378c690a3997f6f31ea691d56a6c83d5e0b628be8c53badb864
+Deleted: sha256:6092c613c6107bd93e01ba5f4e2593d111965530041bddc25661c15b7801a382
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+ea588443226830ecbb858dedac709935021c2e73b20eaeb46043d4898eb22547
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+9a16db7f654d2480ad9ce878db783c8eae0a4b23ed21b32aebe46e5c8f74c013
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+773b159e78fcd8bbad07e18fc039f36debc1d56916d9199ebc5870decba9c2eb
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+9989ed11c2196bec95016b0976d73d16d9313d15c9c239f8ee6e5072406ac56c
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+b467efbd7f29ec33a6f7ccfaf10101c3909093039777c0e617f5d17abec537ce
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+a594b309be056b95e75072d5f7e0f031d510cecc1bd2c491ec2c394d6e36b8ed
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+e9f4341a12c414882a529f0f62ca7420f0e45bba97de5663fdbc77903bd9c6c8
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+5cfd25f2b60ed2996f6710e698e5a31edb3bac6b126af390f17ee271bc0da1bc
+#9 | Disconnected | 3.16.44.23
+
+#10 | Connected | 18.218.109.101
+Success | .dockerignore
+Success | init.sh
+Success | Dockerfile
+Success | package.json
+Success | XPaths.csv
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:fceda08e4f404a929428f847b6f380d11ad6ea11508fbbda3830f8ce2a27ade0
+Deleted: sha256:b3bfe3db7bb63592c32ad40ac72a075a480692a825d2598b56c9b31bbc90edcf
+Deleted: sha256:95d3328acf80ff40c7c600a4b1f9c5e9fd0e7e96cde81072fbd66867f2af2c9d
+Deleted: sha256:5912a459aca6a6e4f37e84fa516bced3b75b8370246e85385869b8ad12e37450
+Deleted: sha256:5d2bab09ec5fbefc0a21099d7656e28775703f1072a5eaf335695cdc90f96eef
+Deleted: sha256:f43eded9f1a345d6cad1e1be4567974e6122de26d620878c78cc4e17e7297906
+Deleted: sha256:e52785dc814d0517e2535e0a2bb0d6a4ca8fe6767851b1d3aa1ec290a26f5543
+Deleted: sha256:a6ea0f898007af6e203f79cf662ddccc31c615136b7a17fc54d0a421754a0bb9
+Deleted: sha256:5ac0eb4148d8068f97bebe7072b36c96faed3f7689aca002d186c724a9d7b866
+Deleted: sha256:1bb8710344a12498186b47b23d874cf668f5aa5940868309d15d6ebcb7554dbe
+Deleted: sha256:23772007eaf4ef2c228ce29af9be34ab01794a6cf6499de58fcb45e08c8d8df0
+Deleted: sha256:43dea506ae98918a28f036c4c36c48f59265320378a341115eeaba6a5af2f883
+Deleted: sha256:47747a8383aa41d0f9c27500f97b7a432247301c43557b836db537009b5d1b9a
+Deleted: sha256:e36c837b74a61f80d8b2745d8f26cbb3bd0537075a1cc8dba130c5d0b29850f8
+Deleted: sha256:673a5ce8877584bca8bfe04e5b3396db466eafaa1e571aded91a7a037cbb79d6
+Deleted: sha256:a251f3057632c5ff401e2ed6dd1a46f95f0fc1ea64c70c6e290ca974a3b5283c
+Deleted: sha256:a1306bfac7a695d59a0a59716ecfa8061ddbfe0f0d2989dd14f982d5e101a705
+Deleted: sha256:5d0f0f36a24957b7d54312e727ec5182f7368d46b087823427ecb4f14f8042e1
+Deleted: sha256:debe7daf48ea1c2da8ad86343699bbbe1be9b1eedc6b6b628974307b643a41a6
+Deleted: sha256:bd820ea9adb3e7c5bc24b39345f9c94337ca398472091e665f43b08d85d775b4
+Deleted: sha256:eb76644d17ef80ccdfdb244868893a43f6ba02751498633bdafc294e1a284f2c
+Deleted: sha256:95f55a2330bf8fa62b9151d358854ad06498dfdad3146a7041bdc0f05b1e4d0a
+Deleted: sha256:9b149d366c21955de3d0081f7865257e1a77417ccc7015e560074405060e1a4c
+Deleted: sha256:fa4fd7d42bd526e00826c2baedeef344933c5f3b530c25d8644c61ce0b0854a4
+Deleted: sha256:50d18559db0ee552e6531394337d756f51ebd1d3d45af63691bf3d10f7dcb184
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+44bc8266e0abb3fc983e8fe123693502e3f0906613575dce50b3339cbe24c0ec
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+3d9e40554d79651784f5187555c7526822497dd92e051211742654d0bf055887
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+aecbf9424cf9924d989b0cf1698c8bc96fd5063f994c6455b459bf927c4986f3
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+03d2d7ef9f19e3f5cbd5d0536393267c7085958a4d91b45f63f2e2555c4399fa
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+384ac1c20333baf62ed96d463e994faf56d7518ce85c673c2d8282d00e12f0c6
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+c09d68019681e0dbfa9c7e20417a3d090f79c1653fb0a9ecb00c810b3f102dae
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+07eaf0eccce716b2c4350534540b2551aad8f5612c1c87140e48e841becf2efc
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+926e5230e7b410a472ee5e11103dda10867c68bc59af45d9cd3060f165496d74
+#10 | Disconnected | 18.218.109.101
+
+#11 | Connected | 3.141.190.72
+Success | .dockerignore
+Success | package.json
+Success | Dockerfile
+Success | init.sh
+Success | XPaths.csv
+Success | Reset\config.json
+Success | Reset\Retry.csv
+Success | Reset\Failed.csv
+Success | Reset\Extract.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:d3dfe341f3487a4524171ee47b2aa2b77f2d5989780b301bc5273c32df7ab9c6
+Deleted: sha256:56afd6c856dcfa6cc7920b95716fa27ec308135d8ad01445aba2538e79c616b3
+Deleted: sha256:58ddb27ce3bbe3b9aec7d19db953da1cfcd7e9d2dbbe08affff4b3a2c6ec1739
+Deleted: sha256:099f211a57b3cbe9fc49ac6eb21b1fdfb2268d58cebf73de695e29f57f9d4b1e
+Deleted: sha256:62c5162e39ae46c99d5652de938a0b0ece72daa7df15401f528efddeee544245
+Deleted: sha256:99a25e01a06357f36d331cf64285923a74131f5184aba2498426777b46f70404
+Deleted: sha256:0a541d548fb3ead9c0c262518534afd97416ae71e2f6552a68960c3fca884e07
+Deleted: sha256:f767ffec0a1f43aa01a9bd8ad72752159ff1677a1500ac3f3f637691c65f12df
+Deleted: sha256:0fdd97ba73674ec6da0e34f74f7278eeda8ecb4d7833d646af867d8303ae8503
+Deleted: sha256:b1bdb1def41fbefbfcfe05aa8d3b6b047f5608e377006eab005139b319975c7a
+Deleted: sha256:c07e8f7eff90697257eb9d8c9257d62b377c9189fe1d58a578ee461a7be77710
+Deleted: sha256:5a3dcaaf7a9cdec454c9b0d2d7cb41e8448066cc9ae286050227f29c72b2a43f
+Deleted: sha256:641eb70c741f95e75323763711a079756783b22754e15dcb0d0832117a790262
+Deleted: sha256:f0f41692c8aafb3816bbadbceae63b405b142af7cfaaf0be966ebaef500e1557
+Deleted: sha256:3adde81faef94c196a69f63a2b92ec89c96986f618aaff3610f82fa00e5c7b99
+Deleted: sha256:dc7b8cd1a39110aa79633c4ef80cc6335860b247f8bcd9fa6261c15be00db2fa
+Deleted: sha256:0efb248367785395150d6191a0a7529b6368bd0d57fb71550a6635b99ee5c834
+Deleted: sha256:c4952b33033f39f1b68d90077b088f7c692e471b5acf57712b447f348fb97ff7
+Deleted: sha256:9fcf72be2fc4a1b2e2eea6aac2c4438bd8de11f995a81bacf464d64283534a67
+Deleted: sha256:9463a9b4ee4498c8f4491e2d49491824c60d1cccaaa4e6ed524a7e3bffac52be
+Deleted: sha256:7b8b235b4c4db2aa49ac5db8a26dc501df3b5685dca92d6dbfd41f6e6723690d
+Deleted: sha256:f50b208f889dc701fdb7aeb3618c972b3cd6b838908938ea4126113ed9e6d732
+Deleted: sha256:5b9490c2490264aa514b756789cc9e2fbc46e38292c0b279d3f9009f99a2ef66
+Deleted: sha256:a33cf2d5bf0fcfb697f8288881056c3d5a2ce42380f77d353f4c62ec3a508cd8
+Deleted: sha256:ba37958994d0ccc87b05d53807039a89ca07f918499b28efe793d32236019cf3
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+fedc3ed40b0600b9184cee5dc0ae77ec654dffcacab256409ec48b3a4b1ab9ae
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+cacb26a24e92ea35331b0da0b4c4f8b44046ef2e0739dbc7af96b7586ac47fa1
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+1b05a5c5d897f80faf466328e00906c1a792ddfedb2bb0c1377064ef560f93e6
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+7734a158ee8d1f29ad002eecb1037d367529acaca9096adb1bee56a38c392011
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+714f24053180fddad033a66e399ed1e93c2e889d3af50cc17ca7ee9940b6f1fe
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+5dc7f6ce8652257fc8a52769a72686d468e620f07597df2840ce39b7febd3fa0
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+3af3ea5d591c066bc06c26ca82a2bcf944009584901ee411c8eadf6be3da12da
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+2c813a926eca8ae04008e1f28d03f92e15a9288b7c2390f8618944cd0aed80c4
+#11 | Disconnected | 3.141.190.72
+
+#12 | Connected | 18.225.33.31
+Success | Dockerfile
+Success | .dockerignore
+Success | init.sh
+Success | package.json
+Success | XPaths.csv
+Success | Reset\Extract.csv
+Success | Reset\Retry.csv
+Success | Reset\Failed.csv
+Success | Reset\config.json
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:36de63bba0e3ba5db21753cd0b77479bab96e6ff54d040a0382402ed3e8b02fb
+Deleted: sha256:4fc8d7cbead76d61302e898fae80efe9bfb768f6fbb3cbcee9d26a7f7634828b
+Deleted: sha256:d563ab671c1c4e415fafb1284f47f9ae029ef7b6a16e9c9ab6673da143289d08
+Deleted: sha256:351cb7a081d250be508d95cd3d223a1264465b8ada6c4b6a4d9564c90533f553
+Deleted: sha256:414b6f59a14ae5b37e7601c5260f296d4a30599833f6f9a1f955225525126d3d
+Deleted: sha256:b0c690e6089f20c45025c9780ce6a905e45f429e3f20972dbb968771eb2f13c0
+Deleted: sha256:ac4ebfc95dd25b145ad8dc700e053d8066beb7c359f84f7a2bb87c1832143b6c
+Deleted: sha256:4fca7ee0fba891e31a519b22c1fd57214fd44cf0ec1968f71b73ad428e8c1ef2
+Deleted: sha256:d208fa69a6f0dc7c68b38ce5dc73b79ed471ee61029542583eef42b840463efa
+Deleted: sha256:9a11794d80b7910508ee8db4030ffc78444e4608399143d0b03c51c950084c47
+Deleted: sha256:5ac59d461ec1ce5aa8927c8c31891a8ab405bcccdd49e32805690a996d9c73a4
+Deleted: sha256:f103382fca63a37d373b7fc676dacac062f05ec6f8b47da510bfe78883b804a9
+Deleted: sha256:8f46c55b222e31e10548e968cc340088e97da329ed9a554b5d05e442d06eb2fb
+Deleted: sha256:64f9545d6e1c8421ea9621a1346e565be440ab96768821fb7408e079bb038a3e
+Deleted: sha256:0dda9750fc0cf4d8f6b01dc3ba7a0fd9cf8a783a948668c132ee0989b3c4a338
+Deleted: sha256:f69ed79f3d6f81034063518a052d18a575f4512dff3d0ce799b1f81f19a9514c
+Deleted: sha256:4a0166eb78cae59cce9b571a14d88b0e6d04e32386e3e1d31a897e1306b6a0a4
+Deleted: sha256:566a25a8b98ecdc6fe1e506efba981491740c44dca0e1ba2055df020b66fa187
+Deleted: sha256:2a3890f333df56ab03fe7e17c4d5ea86e09ef0149406b01a382fb37973456162
+Deleted: sha256:ad886b8a4b813e2dffa2796e5ac4950451e97566dddae7b0c8ccd78f29b800b8
+Deleted: sha256:9130ce84179527bd8d2dd94019510c0d11f1c9249a7d6c3ca65818ae3637b72d
+Deleted: sha256:c306583fedde8a40b4292e38e29089df4d09e867afeccb5a33875709c1ac1ff2
+Deleted: sha256:6c67602e11af899dec8870a275040a596d27d1c0a3eeb4bb0026f5c70c7494b9
+Deleted: sha256:4179370cf26cda761893ab3d9ae12f3c1be55f260194bdc26147b047b5584ec6
+Deleted: sha256:79d1a8b0f40d75e131a25f669285c4f2c7dc8baca0e467375ff300df6af17d26
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+db64756b06142f3d5030827d99798f5e526c34128a583093f3fe5ccd08f27887
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+8b23b5979798f2d9a4c4c679463d316314da2e1ac9a9ca9d39fc80a2457e47ef
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+f7c083d5b925ca53bc0a2843016f1ae101c03351825e6b6c066c299ca7d41077
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+ec381b405907c5e083019ff8fcb7cc7308def50e059b7e613d590d0f416a022b
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+d651333ba7ee55f4a91445b541e7c8c3b555db641b1080cde3404bcecc4eee3d
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+954d0c225040cb9de5ffe84c5f4203b73081ab5bcc5c612a76892554134498f9
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+2cf3d0508626cea02fa9257f9b13cd0083333e576bf73f44736e2a353c7cb379
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+feda354df298acefbe0acd588dd15e02780ca28cc33e8ae8cb5221d94be2fdaf
+#12 | Disconnected | 18.225.33.31
+
+#13 | Connected | 18.188.168.197
+Success | .dockerignore
+Success | init.sh
+Success | Dockerfile
+Success | XPaths.csv
+Success | package.json
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | Reset\Retry.csv
+Success | Reset\Failed.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:462ad4354fb460f4ade424622b9876ed34b49e0bc58a45afc1ea5518bf7a17e2
+Deleted: sha256:bcd956a572210f18165f746b9dd6a2435d984a21360fd83208d30cd59edb5b6b
+Deleted: sha256:5216cee3171eb8cacebf9403ddb55bf3174a4806263f4c509f03e151719a7f1c
+Deleted: sha256:9d8381f06e2e4a7ce939893b5191ec0528ce1c481b56b7468a0b71ca8fb8c0e8
+Deleted: sha256:a2cd25cd4b089f94aeb44bbc2f0e90626c43ffb8201a72cb19a8545ac1101c3e
+Deleted: sha256:52041a663684aeffa39aecd028898f6dec91c4ba47d8812540927b24637e1cc4
+Deleted: sha256:7897217db11856dec431fb5dc8bdf45fc7658131263c18a3b85e46016b871965
+Deleted: sha256:88a05d2f04258252cf6342d1be5b7b49653e1ff303b156555ceb5bac57090ac3
+Deleted: sha256:e45dc564b41b0b9b07b3e2c1bb528d3bc5a1796516f4f63d1e7bec6343c7d3a6
+Deleted: sha256:bdc62a3775fc22c610bb6536fe695cf99e1a02673e849769eb4468942ffa241c
+Deleted: sha256:df23000870505c371ce2d9ce243e92bda605279cad66fd74fe389fc33a0e83ff
+Deleted: sha256:273af753c3c0bb767421000110c7bd39ed0e62346d88559a1b87624cee4f7940
+Deleted: sha256:379fbe1d3b85ef96962b015ee2e25825acd4e34eeabeb1b90319c46a5b6a24f8
+Deleted: sha256:26cbc654cbb7cc6c5fbb0cbbbd67c51f17b97a54303e7cd3c3b860a3998727f0
+Deleted: sha256:d76570dfab70dbdd74a17a8000e743e9d6276420c559d729cae566d5af3b3a99
+Deleted: sha256:2507c1e3f9abf613fdd0e8b216987cc1357b9ba96df20bde2935106abe96032b
+Deleted: sha256:213d36c5918abb4220401292a8259b29c6cbabe39dad2e79430af3700e4a8722
+Deleted: sha256:38bb5e00643b3d98ef8d8f0e62f3bc509ef2278c714f4053b2ff9ec0d13e6e38
+Deleted: sha256:cc28d9677667848d7bc3dd519705928468fb928b20b8a23dac9c77c5e935334b
+Deleted: sha256:05f0adb035aa89ecefb6b0a73ea69256c1abbed3cf1f4de939c74ddba5d3269e
+Deleted: sha256:102159537997e7a07ad64bcc736b4c83fdf4dc939337e79efd5ebeb81a72aac1
+Deleted: sha256:cc2d4ef7acb900800f14d11c6f13d7c4833dff25702a615903f8e8d0b2b655ff
+Deleted: sha256:58bf17bf9e24b6d11c3fc6fef1f47f07299360d548a66635a1d4449f0953dc3c
+Deleted: sha256:875bf96dc9b8b799b71e7bea5a454d81b648d0c18aa19b601c23f5105d210dbe
+Deleted: sha256:de03f040a200d683bba00e5913d2dba8969a2bea32b9c4a78354408b085ad4e9
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+dbc3c3912f537e541f12705e460c02bd268a6645506285e4b0a1ec6f9318cf03
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+1a6f803b30ca49d47efe2dedd64e4cf1abbf6adaa569645dd74c4a69cd501275
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+584142e278b33fb25305556d154f0d3eed77b0e21d03fbffe1f7be81aa199c31
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+92242304f1373bf8fed8afa9f235eab9345aa477cec4a8033b0b81c3b06338d4
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+ab77e835d2d1abd3ac9fa46e77552a3af221d8e6a1c33fa505a2c40f38209323
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+23fa1b9032e7ce80bd5970e5d24cb6b3ae6249ad2a7bbf9d74d0f7b95bee6185
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+5c881393e8d2497190f0c53ed2030bd9808c867dd4eb4b5fbdd2f4444b23166e
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+7ea988cd1c64c0631ff4376555a4d8345eb95b84bdfbea834c7969691a272390
+#13 | Disconnected | 18.188.168.197
+
+#14 | Connected | 18.190.158.28
+Success | package.json
+Success | init.sh
+Success | .dockerignore
+Success | Dockerfile
+Success | XPaths.csv
+Success | Reset\config.json
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | Reset\Extract.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:de58723ec209bc91b6c45cb8effd3e101fe887f3dcb1b9f610ba818101151e8e
+Deleted: sha256:ee277ae904ef70633cb5ada655608e7eeef69275282f013d8726c13109f435df
+Deleted: sha256:c8de0ba91c99cd8c454270c31e5308ed9e04389b3c966dc5a38ae69e8ee1769f
+Deleted: sha256:a55dad1b49ea017ca1836614eeb78f6b3b5598458c90d31466c3299ec5fd90e8
+Deleted: sha256:8a49545310c57d6770b4e6e74fe28f00938235de0bffddaaacdd4f15949883f0
+Deleted: sha256:2e4f8ff2b3479fb2d959aef71548836b58d84dc4afdb4d17166785ad92e01ab8
+Deleted: sha256:244f02b6ab8c3491cbd9b8ee54bd61357ae9827a4d7f284e6eaf6c1830c9308f
+Deleted: sha256:ad32b3a564af7df9ac2e7eeab73a56f9be860b65086dcf0f69cdc08470cdef02
+Deleted: sha256:4453c707df49a0ddb36ca6b9e58069d47e916bb08828783d97a29e886ca738b5
+Deleted: sha256:23851981c0b2c1b4aa8ef0fc4a5e7b64996155fd2207056b701a8d1c84218883
+Deleted: sha256:e9fa80948297ba7fd5ca62cfbd61330a3d108111c96be17a880fb7816f36e0b9
+Deleted: sha256:d44c4ece98b0aa3d742a4d23c9b363ea23d6e657786d92d8401a6d43a4c6dd1e
+Deleted: sha256:5c534ed78d634489bed0bfeedee46853dcfa5aa0960ed514dfc6a62240d5ebfa
+Deleted: sha256:df27f5f52539d49147ddf7114a6a5481d996e7e034cd4dfce787505df8532fd7
+Deleted: sha256:1e4d83389fdb298d25b2265c2a79ad7c218ecb6202d60446bcff26409fc6c768
+Deleted: sha256:7f139f03d8091d18ae66ec22fde58ad5a465431df5646874c6196b54e108041b
+Deleted: sha256:421a71b1e6bb90ef051fe2e40297b432e3544d11a03829d267c5073616f2acfa
+Deleted: sha256:8e18e288807645ddb6509d6790e50d042c7e9cf947dde4d5eee1b860e29912c4
+Deleted: sha256:d1e0ce890cf9c96e1276719f12be0b822855625a13607dec5fd38938f2130ad3
+Deleted: sha256:873345a3d7adea5c6adbb4899c72de65d30ad3d5ff56fb3973bd015185e51b10
+Deleted: sha256:8c1759a60eb83334789ef4f8d320d7b4754c67df6d0fcb487eedd9002bb725fb
+Deleted: sha256:ac1813907f05c486df6c46d5a6387226b0597b0b20306caa4b1467af6a724dbf
+Deleted: sha256:179a294574d200212be4ca974e18d2429f1df36415fd02a262c82f4ca302377c
+Deleted: sha256:b35a66736d5563ed059b138d048006bba8f3eadb3258871a578275b8b29dddd4
+Deleted: sha256:34f0dba8c6c6888c5194ec17c5d8d62f9b32d4e3c25154722f63be29ad5f717f
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+7ea95f661135aff79e201234ee8a30ee6f97caa267ba8e1e805124f61ea704d6
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+84ebca8fae04f30b87e931ec1ce1a2bed0f5a8528916c8d8f67254089bef870a
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+119a3efb6535b7ac4051744e4ccbc4b954b59e3a3ca428b77934943e43181798
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+108eef4f1ef1ea0cde96cabcb8b52a271df765cc9df5bbff7208a09e67879548
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+f18aec4f7260a338469dc28b094704f8d3c0cac7651f14cc85001b2eb17b6c53
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+64a7183ddb0120e296d36bf85faa5e459fcd69f189a1aa5ff41b1255763a864f
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+61426d39d792f61059302ccb737eafb9a416833313c5c46a2463461b6e2f2dc9
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+b94b59ec36c2e94f99ae58cdc8fe7bb43c3a90012a1a22509beb0c01c488809b
+#14 | Disconnected | 18.190.158.28
+
+#15 | Connected | 18.224.21.26
+Success | .dockerignore
+Success | Dockerfile
+Success | init.sh
+Success | package.json
+Success | Reset\Extract.csv
+Success | XPaths.csv
+Success | Reset\Retry.csv
+Success | Reset\config.json
+Success | Reset\Failed.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:beda911eb9a8c8222a28ddfc17de504d5e1151d8a359af18bed0ef8c2036b527
+Deleted: sha256:013f0bea7e42f4943b130fd1e2ddd26da680d6e2947b47240d77398aa0ce0b4e
+Deleted: sha256:396fce2d5f47a5c1270cdc8e0e08e995bbf9fc912208871e158b4e3aafef0239
+Deleted: sha256:d536b10bc22d73230036dcc9486ab19f4905f1620ff42d2590d3804e8d1b1b6b
+Deleted: sha256:beaff57f9b62ef9cd3dcac32ed0dd9643f2e3e17ab739df0cc2355cdc9c8c0ce
+Deleted: sha256:fae7f8174197d753cbe2bc11dc347e6506300a2bc4d364f203efe4de0a2ca172
+Deleted: sha256:cd25e3167e690604d5b5206c7a2c0fbef3091154bc4a23019488bbba42ec382d
+Deleted: sha256:275d7db6255558c8fb1abe5c24da57eb6dacb041ef6c3e346eae248353e2ac98
+Deleted: sha256:4ca55dc8414b5c0a8cdeee471d0e0db5b56c0a774daa0d933765959b5c8f4a1b
+Deleted: sha256:e6e07b54593afa30bf67b36def0fe0668584c2d76e73b8d5443891f1971d3c9f
+Deleted: sha256:e006a6cf6cb5ca97b9e63af10b125a525e2006c3942c71c96f7658470f308620
+Deleted: sha256:50d1ddaa8aed01045cca43f8c828c933be3c37cca3edf1eec0e18b98590012f9
+Deleted: sha256:7bbcf4c2d9f895e167b89d42914192ea3e56f35c0fe1b1cff702cd85fba67460
+Deleted: sha256:b4d9bef199eda7fd519298f569a7f8adf45f5da5a7b49353ba7b49613b407c59
+Deleted: sha256:deecf8f08290f44b208b1ef31ca41f36bbd5b7faf53d86fa9fb70328755bfacf
+Deleted: sha256:653adb2af9969e41776b2a666a3a1391388ee9812614304414fb6b7965e3bda2
+Deleted: sha256:ba01ff5469fc0e526606ca3173fabff88787b50de7acdfa1625dfe7ec408a537
+Deleted: sha256:d58a830d821b5ad5c4b533697154b41e2b7faa21da31fbec6832d35d58de0eab
+Deleted: sha256:1be048e277635d6d4a24ec5ea5a471cd9191c9514f93e73680313954ab1a7276
+Deleted: sha256:fc67d647190ea425d81f4e9ecdda211ccaaef3644ff9f5206415d14b9b43f6ba
+Deleted: sha256:7daf4a4719f565530903fa7ecc30be9f9e3fd85dcb2d25f41a14ffaaeac871e2
+Deleted: sha256:44c413bb49cc27bb2f335f544d3df9afa92d344d894ae2efaf51e37b5daecb5a
+Deleted: sha256:d670901b3c361ffe21d3301079422ad3b86fc3d41d9654be8c3cb76e4fa21aed
+Deleted: sha256:55f23a33a07682be7ef8b7b9682841c81f7c1cce7a0c17ea93a4922a042ff706
+Deleted: sha256:156137b79e9709f753dbf0655fe649968fce5a26635cd3ab8b3b2d29a7e0fe30
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+7153d443bdf83e1612acbdeb6e8df70479433cdb927200b7d33cdd6878c328c3
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+261781a2ca4f810c839299db32a3c3ee24e487538447da2168b955db6396e7b8
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+2e6d4263a6bcb2ec4cec366e229dcef346fcb7e837a7d906f75bb985381e9a2c
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+d24869ee48dc2975acd2a13dd8eb82d4be964a2ecb8189d962096e88f31e72a2
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+9d1017a813e946011867c7a1c1350afc8fc272a70155f59710fcc471e611433a
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+2dd98b0507e4645ec9e54c675d8b2c86dd969d1fe5abddc67c980f91717b78cf
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+ffdd8ca94d2b51b88a4eff469a15dbc251aa07d79f9976684df08d7e5aad3592
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+72a3295af8c42ee4965492581f7183527b3b0d67b7427642617ade03263674b1
+#15 | Disconnected | 18.224.21.26
+
+#16 | Connected | 3.140.243.74
+Success | Dockerfile
+Success | .dockerignore
+Success | package.json
+Success | XPaths.csv
+Success | Reset\config.json
+Success | init.sh
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | Reset\Extract.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:7f8cf312babf8b0a4beed80029929c4cfc4a8ba7ea2cc6ba4b75734b7976ef4b
+Deleted: sha256:52ab3c913bbf0da1dd757da56d7bb2c5b664f8faf097a3507c142aef2be94b36
+Deleted: sha256:da7401f360d2d6e94e233dbaff4fd8021063745fc6032134e36738d531f9c11e
+Deleted: sha256:281d876e614e4f6aad5cb547dc25fdbac38b6a0b74252b23533ebd0932235b91
+Deleted: sha256:a87b372f58099a8a5065d32884007dfa32cad3bba03473b4309c290b14f0c89b
+Deleted: sha256:7988355381d315ecdc1d49d5bedccc3f385f92821967b524d2db0ca656a5925c
+Deleted: sha256:afda468b386c2c72279bdb6032dc0fe328606dd627719a52cb9b3209de36ee99
+Deleted: sha256:72211abd72141422cef8e7ed77ec8ac56f67e5516702606dd7b408e13e0c39d2
+Deleted: sha256:4fbaf38e3f0b0f681602cfb2fe6734de9e4512de1e1399b0187a277db81e6849
+Deleted: sha256:649f28df1fec373f3f7dfe852af896947481dc2e854fcd6c6418b4b11b23d156
+Deleted: sha256:0acd7e1fbedd7e2dc37648bb602a318061d2a6cf46cf86a8eae44ed04060411b
+Deleted: sha256:e42f3053d7b98384b6a85b0c17a5e6fc9f8a64750c99f9ed628c0f476c5f6799
+Deleted: sha256:0a8ca9f0a97e20358780a05a0fa7e09a088a2b5c350ff1373f784bcf8cd156ff
+Deleted: sha256:09d77cfac480f77ee0543c2f46385d943fdb358b52f099e38437e39d42c98506
+Deleted: sha256:d42bdd7fdbc35d853158e243435a4a4c2a8300ac165594d9a8e57fbebb7f37e5
+Deleted: sha256:bdaedb12644b843dfeb7b2fe2addcfb0ce8714c473706f4dc19de221d0482b58
+Deleted: sha256:360e6a0a9a20132e8fa1f1f898cff4e08203078e3e9efc66cc07e91da1c8826d
+Deleted: sha256:e8e7d547264cf0bac8f47f88533fbffea1baca1cd1f8739d46bd133f659cbd5b
+Deleted: sha256:0f4fbe9fc4d73cefba0087d41c72f0e0ed5e038e8404ee5470257f5a05dee1cc
+Deleted: sha256:657ca1ef03f72d66f2c3186f03f46d76108e0045b7e785cdc9d92a3bd255ebf6
+Deleted: sha256:ab0967475a2b991526c25c28a3f4e0ccba55614bdf48683514ef1cd81e2fe5b4
+Deleted: sha256:f0ebdcdbe0acbdd84e143bcef79ba65ee7b0e8d9380ab289a2ecac3e7fb36d6a
+Deleted: sha256:336c187727af611c134528849444ada1d0fa2b7b44f62311e538a30f25990316
+Deleted: sha256:148386654340cbb9a0b4ab689a0be05843df75302f64e2462beec30db18db0ad
+Deleted: sha256:f5df6a06c9834ca67e358838ae8f08c255af67ac1d3d1898c2c14f2eb2d906d9
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+f1674fbbbc170cebd17dc82b100a7fe55eb057e93232d0df18cdaec535c63739
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+34eafde5cbd3e61ff04b97e99159c48dcfe536c9498ebf4883a06e058b9389a2
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+2bc7af8e986ac7c8a9770242fb061613cf01e5d3816e98f64b430c69e05bf588
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+b13953224be24d4ea4bf557625b8232d2a98c01c0e93ee548172c19d957aec69
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+3d40a4a4da393302e1ccca66449997e05f65bae7316ca36ca2a691201db08105
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+2018b914762f9e3eec56bdf7ca81bddd029a54d575dfdd3de20050fe671edf28
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+c29421382b08697993a735ed41c75b905b98609ac6098277320f4c8f5ba88d4c
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+183297800bce35e8f0b02c627726877030da74346aa9686745773f40dfd9ba1b
+#16 | Disconnected | 3.140.243.74
+
+#17 | Connected | 3.143.170.114
+Success | package.json
+Success | init.sh
+Success | Dockerfile
+Success | .dockerignore
+Success | Reset\config.json
+Success | Reset\Failed.csv
+Success | Reset\Extract.csv
+Success | XPaths.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:ac703ec3664760bdc343b306626633c50c11ff5fc814f77518c8ecf794c2c2a7
+Deleted: sha256:f3ea718889d1c88fd33c3e5bf8c30cd295a0af62012615d513b5083c9350eea6
+Deleted: sha256:4284ba76fe4cb1d02adcb55b89a189a109d107b8cc9cba08bf7e26ed8ef918c2
+Deleted: sha256:527f8fbdc4ced448c3a8bd442cbe63ee8c0b8cedd119510657dd8ea022c35052
+Deleted: sha256:2a5762def48d7daab401ef43e0842f17665d1b93bf3b0af597ebc1f408e46d16
+Deleted: sha256:59b41acf59ea39ea4483ae0e60d61ae7e7e69d61683eb2b6cf5da423d3894eb0
+Deleted: sha256:dfdc901d4fd9a591ed887199b0e45f2e0d30a21847d6aac11df38fcb8121357d
+Deleted: sha256:faea2b2156c1ba6b5d9fcfdc2ea617a3ced1c2acc04efc94dcb129051ff19551
+Deleted: sha256:4b30e64bbd042bc308a87667d679f56c5452cd56f79187eb24de8ae1d030ef64
+Deleted: sha256:60f23af3461a553417587b34db7fbdfe25a5306ab9897ec7551156a1c4351391
+Deleted: sha256:e535aa4c10ab09b9f6b06ab61834c8e2a028270b6f02d92f6050d916df28a627
+Deleted: sha256:be34f2b837767df206d6b57bb1df5078963357fb9a7aa385153209fddd0149ea
+Deleted: sha256:512b93db36a1b94d55bae2ef9f41789bf0883d951ed29211796e7979cf47b669
+Deleted: sha256:7fb1b3565d5ecc46da14ba71bf24294e095fbcaf44d25922571d2e58b0de63fb
+Deleted: sha256:2bf806eea38cc6640a00db48b45fa529e56c704b0d6ebd1c9127625e3e3fea51
+Deleted: sha256:37d5eddc90c4842ea5f6f07af3dec5d22d3667f058fb9c5dbf785ee4e0277ea4
+Deleted: sha256:a23edd5ad317d5c4cf1fb7618393379ab944f5b4df625b13a595d67f03def0ad
+Deleted: sha256:68353894d1f655764ab941703cdc5a9b582786653a7ecaff6dd61405f3927601
+Deleted: sha256:67b0c6ab71285d63c33c697591f879613e55f35de6f67212daf350d30fb4ae85
+Deleted: sha256:637e7640e1b77664bee216f68150b6a9369310f0d4c66838d6c64d15ee41a484
+Deleted: sha256:8e0daffed6343472bac1d93e2a1e5c81e356f316b7bad900e96692486fb0b176
+Deleted: sha256:69f7ddd243ada04f58c037f33f1445ff93dfa625ff72be272ba7768ac1f2020f
+Deleted: sha256:f4f0b8298389de42a5632fc3ece85b7b33299c8c9acfb68bc5a3c8813e127b54
+Deleted: sha256:37aebe8d0ef5193697fab980713381fe382e1c3a0c2967f044a80030668a1afd
+Deleted: sha256:1d8f8c2070d9c1db27876069681169ec79c2ad4158ebda675c78404364644ed1
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+1a2a108e7fd97de35d60894d783bee8dab1e8d7f4cbe39b773bbd3192168adce
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+75ce3a56328fb2d0c575e1bde3bb68555d75347ff1e209892a9247f6e5cb35cb
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+a5109c2274aff9e355653b62a76026406d175c38be5f4e19a17de1fccc49e940
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+6e3914ad61be8e555394bbef845dda2085856d1b2bec177fe64825c19bfaef44
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+e3d621611ffb0a598f0a9669702d875a66a05303d84da9d8e4053d5ed6d962b6
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+7632b38ccd7265c5ca176975cf526825b0cc7f41706803ca08cb94cafdcae20e
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+af5480a683b75674bb0743f2b2dc22ab817383e6e0ecf534bf738ab819bff51e
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+54ce68ed8802c6268f691d08ec8e2b6a1641129f28b92b9bdc513f43a6450055
+#17 | Disconnected | 3.143.170.114
+
+#18 | Connected | 18.221.122.64
+Success | .dockerignore
+Success | init.sh
+Success | Dockerfile
+Success | XPaths.csv
+Success | Reset\config.json
+Success | Reset\Failed.csv
+Success | package.json
+Success | Reset\Extract.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:6ad6ff49d5b595e3357ac16c097e9d39e8308e3be766ae2792614bb9f93d7cd3
+Deleted: sha256:0c95b051bb15b8d139f74c3a5577eb33b11e46b0a9ac67fae4bac74b6cff518b
+Deleted: sha256:8759bb485ef7be384331aeb56c7db9db4256922f03bc9fc75be7f11c0e12fe5e
+Deleted: sha256:93768f654455f8f4375774f944ef409b7837e56df17f6c020dbff1a3431d1dd1
+Deleted: sha256:524495df3daa16e05e5f6d51f64651fd85dba6c84d4d56b05199e1203334d9c7
+Deleted: sha256:6bb55877c5061c67bc079d17f10542aafa7520af36f91d9bfc01ab7515bc8e42
+Deleted: sha256:91b357d00861368220373d7e045d86e484a20482dc7a3edb2d8f422aac45a59d
+Deleted: sha256:b3185e55266f1a1134b5694757fb82a5f062cb236480640cfc91693fea586d16
+Deleted: sha256:8d300e9f4486638d3e1645833c1c79e09301f62a680e8c6f9c6a22a005d5e76c
+Deleted: sha256:ae12b54b1eacb1aeb0a90c55e291dbf736cfa4f6afc7fecfba2a81caa1805aac
+Deleted: sha256:0d58131580e965110a91ee035f8ef426e209d386163f8314f154185f4cd3fc9f
+Deleted: sha256:ba68e3b0a1d1bc3bea531dafed9159c9b55dc4387685978222bf4bc8eb66c1ef
+Deleted: sha256:8dc523b53cc983fcdcc816fff4b6049f4420d24a536e15efe9b1f398e9cd65fa
+Deleted: sha256:dd3531626b17b237bedf1268b2437cbf706d4f1e5e023161a4607038da51bf13
+Deleted: sha256:679e026aec6cd1c4e53edaf62f891cc24c0919e7ec5504d26671d31585b3fa9e
+Deleted: sha256:af659cb538b228ee9a79bbfa58164e56044008d2e1e90c898332056d676b30db
+Deleted: sha256:0d39a52e242df035879cac5585d3d8c14c04e2f03b24415558c809677068b7a9
+Deleted: sha256:f988826524f6b74d9bf660ca77f82d9c511584beb3bef46e520d97fd32e66027
+Deleted: sha256:de0f7e9a756f7b8caa8ab08999bfd3d6aacccaf59fcc1ff0d52b7d21b7d568e6
+Deleted: sha256:fdeb8067517381c5deac6bf212eff74cd4d7bad99c47c3eedc5a37f6632603fe
+Deleted: sha256:efa1d22612b5bd3c315ff9da3a87ada3b877d4ccba7c23af137e543f5092306d
+Deleted: sha256:baed579dd749561e950ad744b44ce46bf37c8a89e6788ef8545bcd0452c7af2d
+Deleted: sha256:e1a40d2c38f59d4cbfb490ca1a983c1fe2b1c386acdb0f1a8e621238c49ad12c
+Deleted: sha256:765b2451c0fa17ac8b549c3f4c344384f6e2318996fd1b85efd6181f10812455
+Deleted: sha256:05c7b6acde84fea093886c2c53340847a7a00a1298c0d3709f8b9d25d97a174a
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+4e7e38c683de94b9f17f8adddc2f887dcf6e9d3754d53b1f393d7eac880cfa06
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+6e31e7e422caf47efc51d12e8abe8221c8995bb04fdf43b15d9330192a42d374
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+ced6d30d9af0371d1574a2cf402c05828bef8a3feef3c748f01fa7e9554a0d57
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+075f86ceae24f5cf16379b884fcbd1f19be71aaaacba9991b3a310cca63b403a
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+f555db9d3a3c10d9c43090d1c444d9b42e9cab24ad1e030983fd42f57f47d720
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+196e8a57ac403391101d40588cf51cdfd307bd5cf53ae4809a278f48a5fd74d1
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+9d3a7868e812dc7d0555c451318b7bb5f55e26c35194461311e97a8945a6d615
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+f0a4a90e8c63ba3a92db5063892f5951d519be2394e12b6760e59ba679b0d50a
+#18 | Disconnected | 18.221.122.64
+
+#19 | Connected | 13.59.77.161
+Success | .dockerignore
+Success | Dockerfile
+Success | init.sh
+Success | XPaths.csv
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | package.json
+Success | Reset\Retry.csv
+Success | Reset\Failed.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:8280c728a9ff8bb5a59005023e8945fb5091c8f19ff7628018b7bbeef9e21577
+Deleted: sha256:0fdfe0f4e9a4e760e790077b3689bdfab3b10e1fcc3f81d5333542b960ecbe5f
+Deleted: sha256:ab1fa322248a877ce17eb5d447fe5e1fcb214da84b5f8271d10f2bf477b9177d
+Deleted: sha256:fc8c7b550dc21539cdb23a700650f3495823cb5054048b9b816dd7a35019fcef
+Deleted: sha256:872904aecf5fe40a74fa229797d39e199511a79c5cfdf15f833b7911ba9a7b72
+Deleted: sha256:ffdd07fca5a970f2e432a916f330cfcd1ee2cc3215fc8af266318d872d930352
+Deleted: sha256:e04a1e0dd06c658afebc523e693b62a6133182c899679e226f8aa77372ed6578
+Deleted: sha256:5e9a42f4bc36fc0af687ddcb5ecc83ccd5ce6cf9fed03a9bb55d0d3948847c4e
+Deleted: sha256:893960f5e63564850d3ba62fc2b2583a2ea2dc51bee4ca6a415179d4336a9083
+Deleted: sha256:c47900a5e3e8a31c2b053226acce4fa6e05485b6d883de0c8b6c17d1a973982a
+Deleted: sha256:462ab089cdd4888f4bd38374bb325175b1138deb17dea73d65370723af533c24
+Deleted: sha256:919a02c576c8f66575228eddfa2ad7708075aad32f897bcc99f54eabe369f2f3
+Deleted: sha256:2bd48e4dba233c2caf85e05aa927375a8ba1df2790e8b2edc6f087929fc2e24d
+Deleted: sha256:c57702f16c821c382ebee098e628d2ae8f5c60eb527f5494ac9c38eb52ee91dc
+Deleted: sha256:3b06800f9e7d268cc59c36f6c3d39466f799276171b3b1924dcbccdb80565dff
+Deleted: sha256:e28a53b032da2e4da58ec5497e3a4054791868b067945dc60cf4c77c101a4418
+Deleted: sha256:de157d8d6ae2e66d8ddc4d6d35594ed89eb3e53c9fb2f17a258fd1b854f999ce
+Deleted: sha256:586bf2bd822beff3b2318011db1f336b9aa010f62e0a573bd454bbcd054c9eef
+Deleted: sha256:d341fa5c65b8a8d7a977f601558b27660f8789e3e502c98cf0af803ca050b9e3
+Deleted: sha256:ee69e25ff4395a38381dfeb39a19e19670e88022ac173ae8a28d6b6bb8065e4e
+Deleted: sha256:76bd45b90c697c1618aee0ec27284b760a98e9a14231c3a7dc210446eb80e2be
+Deleted: sha256:ad9a7981194c7f3376c277affd066f3e2f0719c010c53094586a59d10c8ec08c
+Deleted: sha256:ca4b2e2b8c538709dda87341d7701cd42ec09c38a4b706b8d533bd3a213325b5
+Deleted: sha256:0afbd2db57d02bec03d388da185bcb044209e3401c79fd51231889f24d52273d
+Deleted: sha256:06fd3a3f4692760418c9a74b3bd00496fc337e3c73a532912fe8f599493d2c3f
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+8ea3023e0bef1c7dc2a62e00c46f2b701ac7677c6757fe37359ecb88e6a16b5e
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+54c5defe0238616e74cb42e4f462b487a3e6b78dd666bcb3193ab50db74da718
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+222d6a92fa1abcd76459daea881a89729d34668c18b3879ff642824914e426f5
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+0f7e36d919324e24caa12dee2e2d5c1c2300dca9648c54946bf9efc8a64fe638
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+03dbace4cd025c27f82dd327e523e60a08433437244de741633ffebd22b604f3
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+d5cfd0c5142f7562eca436468a8eb7575218887bd96bd15575dc4bd90e163458
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+b5897e33b41ac8bb75ccde555b66da4b2d2f1cf6d1fc5292f9dc7bc553081a1d
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+8946b757d2f7808d6065da8802a1a581cf2033f26acfd63dedae10a28d4d06cd
+#19 | Disconnected | 13.59.77.161
+
+#20 | Connected | 18.220.94.241
+Success | .dockerignore
+Success | Dockerfile
+Success | XPaths.csv
+Success | package.json
+Success | init.sh
+Success | Reset\Retry.csv
+Success | Reset\config.json
+Success | Reset\Failed.csv
+Success | Reset\Extract.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:9c35f3e37f0745aa9311c821f7848ff1779cc7212389bb5aae57c8ba532865d9
+Deleted: sha256:2b19bb9a1f81cc7f5b76080e4fe206babaa3c8d4b929df099f5f61ece50db437
+Deleted: sha256:8451053f780cacbdaa4dfd3661502191629095bd4daa67a77b47c4de94c6721e
+Deleted: sha256:e36273fb53fca614b448eadb437e10e592ce573e4a2acdb1eb3fc256c1394cfa
+Deleted: sha256:8c84be9e24d16910352c47181a75c3898b4acbb9bb4650fb122adb4fa6d31e41
+Deleted: sha256:205b78ba9d3f8e03bc8354ca2d39b9a3956aab15370e717fb1200bfed4fe986a
+Deleted: sha256:892872b105e76aba4187cb85bfdf7af0e584154cf53c9ca16405e722181aa3d8
+Deleted: sha256:c5676340929422efc1dadb139209a4f22b3f106229c59b2f14992e224064668b
+Deleted: sha256:8617cd86caf81268981b2a1c240d590c4a0ec1af02096dec9e5a35b9399157b9
+Deleted: sha256:90c711bfe01431e695b15766db27d0a9d4a15730bd6eafd35fa47544ee48d1c4
+Deleted: sha256:30b2d0360e4d9c49af785c16e01f9a3dcc0970cee07a2b30d6a87d6843b29b11
+Deleted: sha256:d29ac95521f3555726412b03ce16958d230ecdcbe0b55fe687aa571ff7ef10ed
+Deleted: sha256:081f7275e286b590e43515d86f445fef3430beec0508d006e08072ea55e3ad36
+Deleted: sha256:e76916d89d4a869ff6c9cd457320b6360b002d572f3565f26150b54ebf080570
+Deleted: sha256:554893bf17dc3d44ce4d1ef5165d80caa86620dd4cd666c47005bf340f742699
+Deleted: sha256:173b363cd32e16d79c663eb927f91a873450041ee3ffe22d4e8686a13359ed51
+Deleted: sha256:8b2afab9f5f496cab4c624bf2bb4231fa581ca81865cdc36b6e4f023fbb886c4
+Deleted: sha256:9b68488a00d1dd8a7cb86d5e833e90def5f0e8aca2944e791f86020e5f3a6e8b
+Deleted: sha256:950e0dfac06d0a74cb4d72993fdb6a3a7b033d550891a909e4024f3ff2c4a22b
+Deleted: sha256:778d7c7d922992ae7c2ecfbec6f4c66341ace5d4e503e171f600733ff31c0b4d
+Deleted: sha256:f72fafc494ee73246fec512b52c60c5cf372314649092b09ae074dec47a914a9
+Deleted: sha256:6f260ee4ae0f1b577cbdf767210d04bc4c4917a20b01ba54e87beab7f7eede53
+Deleted: sha256:95324a2966a3ed69403742b47905d5b9eec99b73ec4c4dc50ed90dc29801c42b
+Deleted: sha256:7cc757dab614671fd58b51c67fe27b17b435b171a15eb9eec7b62b5ed49c18de
+Deleted: sha256:5bc9952ec6514defebd7520e81adf33f36ee02cc86d9f47eabaab129bd7ce59f
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+dea259f7e563a7daa06cf1f441a757618b193c8ae96b5cad3c109b8f362431c4
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+ac70298fdbed7365115a43d394a8b6a6637c2288d93116429626dc7d87be783d
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+f7ead108d5714f636b8895cce0f76d2f89349cc572dcbb10e875638bd997925d
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+a027333d1c4a422bac086519a423eab3472890fbe458658e4e048724a0f07888
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+ebbe1f6b27b08249747d2fb1ce2dac407f39fd312de51c4eea2388b4064142b2
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+9dc1b14cb360c675b2399636ac90fc10837b69c7067a6ec4bf2d9483b5905e9c
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+d2329649e1bd62097b2542dbf14d2c920d5a82eb475bea4d84eb2264640dff02
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+6afdae64d6c7212d148227011cf2e94dca9fc1a70f933516d70146e63ce5fc67
+#20 | Disconnected | 18.220.94.241
+
+#21 | Connected | 3.143.113.128
+Success | .dockerignore
+Success | init.sh
+Success | package.json
+Success | Dockerfile
+Success | XPaths.csv
+Success | Reset\Extract.csv
+Success | Reset\Retry.csv
+Success | Reset\config.json
+Success | Reset\Failed.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:80be2f9ba0e900ab2c2f38ed3a60275b224dfc9f13545f73cee83242576b6c55
+Deleted: sha256:3b5997aca0f75bdf26a9fa16d4eb62661652251e7f14ed3b601b756bde0a8674
+Deleted: sha256:e8bf610a60c6bd337a3bb668295c04736147fbeabfdcc3008b3d3b43831d8f39
+Deleted: sha256:eecd7f307bd690856ae2bc74a09e71810481c9a42840ca9b6610f98f392583cf
+Deleted: sha256:92dc59c8809e257b83f8b5eb00eb374e6113edb17873ec35090116c07792c097
+Deleted: sha256:16875d2adce45aef61a12039573c49859034a82f9d486b77c97cb5ced788eec3
+Deleted: sha256:78f453c41e797c35aa6afd5ca8f047fe28ce5d535f6c5352ff828b790a87bd8c
+Deleted: sha256:f0d81b8ecb6b0aa8a4acee5498350c625e5cc6f59fbe1b17b87c145574f7b8b1
+Deleted: sha256:52eca193440356976546eca19a93242cab46632427e2217a38a77f03344e2f54
+Deleted: sha256:74ae7a21432c679f827101a2ec25666f77aecc4390ccbda0fc7400de1576c09f
+Deleted: sha256:83a1891c0f4cd48132c6487de671d8480fdf4ca1e207971bf0d9ad7aed6c2865
+Deleted: sha256:450cd32b10eff9c1a4c84d4c8271951d7926268257bd5b37023db46a01d125d8
+Deleted: sha256:91a7e9813bd49f99660a92cca3f140ffa3b3cd28c7bf54c2ec86bf607c501548
+Deleted: sha256:4bd09e65d6b889ac1ce2238575bdd0286c3ff8ed2af3ed375ad3a4cb3462671a
+Deleted: sha256:4237eac9c61933ae37e73052f54f969a182b3e3c2a4622734e57828549632073
+Deleted: sha256:176f171b5f65718a525e66068f23c893d38433adc14c44da44ccb8600f84276e
+Deleted: sha256:3a60da98ba76add091f9e39c306c0984f950189424dbd237a280708500a9941f
+Deleted: sha256:11ce0b65a5daeaf2fff2444bea96f2c4290e6854862ef727fecc0e52d54701af
+Deleted: sha256:de511b16f616da00fe1d8e4046d3fc609ffd3484499ef82bcb10e8d5482fdd20
+Deleted: sha256:da57f18335f8f5c4051250ecc8c26ff1f05262781e49e34d520e745c6c05748f
+Deleted: sha256:3053b4f71734597d5f31de3d6e3db5c61c93d9d9ceca90f1c5a5a27432c1d114
+Deleted: sha256:974962c621034515fa583ec24a318fbe5ea54adf47b64e8f336cbfe8473b5b2f
+Deleted: sha256:5f204532294dc99e2ecc3dc73f10c62b0e22f135bab6d7d2804c8e2ce47fad91
+Deleted: sha256:a53df4fb3d811fc09a62674584d50986c04e9318762e4d196590f145c6eb9c5e
+Deleted: sha256:f8eb82f29d08eaaeabf6eb31793c66159a8d9ef2bd67324a71eefb006ec1da55
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+7489ddec7579cd9f14c11ed0a6d7426ce2a78da6ad00f7740ced48b92fb15c3b
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+f04de229bc7d63934b9e405862455625fb2a142dda6b63a6a9d8c3cebf6bcbb7
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+11d4e8afd7ec7b04e27148cf28198ed46ec202d6181f432345cba009d310c8d0
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+6f2974dbfc177b1c443b240826682a108d0883a4cde5910fecfa1636aba6ca0a
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+d67f6281fbe8e9bde6bb91aec794dbce0a2da0bf4a43764f50a59bfc2363582a
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+0522b054501e037ca5888d24a45fef6edf112e9b7870d4fa58ec9923e3802d70
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+35693e274282124888ad5bbd00a1ff0c426830a4f85cac0e505f7e98bc3f6085
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+b0712945914e348e790748c7b1d9f5da1e3945b1819bc338a85074ee988b1261
+#21 | Disconnected | 3.143.113.128
+
+#22 | Connected | 18.116.53.201
+Success | init.sh
+Success | .dockerignore
+Success | XPaths.csv
+Success | package.json
+Success | Dockerfile
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:483ae179b29c49109d60d498a6968d105fc7c3fec4ad67cfd8517cda6ee23b87
+Deleted: sha256:5b81c007c7b362af7559945a0cad095c92b802155e276e0d59dd464bb678be0b
+Deleted: sha256:c629f878bdfec6c56a202e9758e66c21a48deec0b5a76a370be4ab22268d6eb9
+Deleted: sha256:b31b77d7cc787899777c1654531563deb22d1b6efb827691c47af07f77239f1e
+Deleted: sha256:674013d2a10a1d9fefd74a7aaaf421f9c156620f85df73f9ed26911ed49ac3d0
+Deleted: sha256:8798ad42a09ac11be0b7e94fa734afe079d642afd7c864b88993a94e9d70f30e
+Deleted: sha256:15d6b9bfb8ebc6b5b8d03a2d716a8875804371c529260d8b77a9d40230247ab6
+Deleted: sha256:14b0ee72fc9300dc3d16f4d5284f58fe9b6f3695d35e6a61fedcdeca309f9bf9
+Deleted: sha256:e63fb29506c5289f44a80754f4f07071407dc171962bc7d644e412381233d988
+Deleted: sha256:a07791464bbe16a0c1e2d05853c3c68dbb32339268ef16bc093125ecc132ee99
+Deleted: sha256:24a7e96bd68d46c4ad68439a38265f3ece742fc474f1257400492098f02c4b7b
+Deleted: sha256:916feb1f5809f2e457f8f008bf7d35a6c6af09568e4bed1374fa679838b2ff22
+Deleted: sha256:312f76258b62383ebb5650dda15b4e6e9b76dddcb3125d80ff38089bc175f070
+Deleted: sha256:8aca00894ccab4706a5e932737ee86270b33808ec595d1852dd004bf83117394
+Deleted: sha256:0c028c7abee62a55dda8783bca8b4b2994ce8837e6c57feb35f0edf9b2dd538c
+Deleted: sha256:48d7d5ac2eff2841b5dded962e74450fb8ff50f8de68b1a5413851fb0622983c
+Deleted: sha256:aaf07ce83110c8ff097e402adf4724f9d5d27230185b8e4267fa8fb7b2f0ecc5
+Deleted: sha256:99e0a33a26ba6d8fce2d83da4fba1e7aeeb209b5503b209fbfd16b6e014efb93
+Deleted: sha256:7d21f488450663517ea795d2ecbe95d1c407c3d765e45aefc2b77923e88d6127
+Deleted: sha256:c3a9587111fed0a61f4f7fedab1343e6c5ca75f51c27b6dea29a0fcbd364ea69
+Deleted: sha256:e38d2b204a2a06582b0fe61bd63249de3a6d51a2093759866b4cf90e14c78319
+Deleted: sha256:aa168f2330bf6690dc548d6675ee675bb3ab7f29042f6add7d3b1a738e94cfb3
+Deleted: sha256:4ee5f23e16bf3fd49cd890f09b47a301b0b0c085005e6012addee5c4bfb0e827
+Deleted: sha256:0dd60a72217733b53eee6e283fd6ad23d498c63772d2bfcf1528813af539a9f3
+Deleted: sha256:db1addf523eb9c19ceab2a90fc25f78ce6ff0b28acd846365b24399a237cb947
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+ee8841238ac35536c81962655a1bba8583a8c6806adb7c51c49973614f85197c
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+6eeff2fc05c3e0155c1e6308ca01a4d5d96df7befa90b099a88158a4ab781f5d
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+1a15805d3063f12ffe3b52716c9be9b0dab48bab5fd029793d7f957fc623fe5d
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+b0edb5337b3f5092ed41acfbe6036d88b7c58440e17c1aa3e1719a7facb780f6
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+87188f8b63c19be7ea1f5b0a2dba65766d2383246ce426c454d89311509f4e7e
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+237316d3380a0c272b25c83a05e4b7fb42a9e98e1bfc6cf12d7eab76b2605f44
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+ad0b632f450537765bca2b782b019f3aeae0f68cd5a3eb732c909caa6f4ba393
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+ad0c42f5333ebac8ce1d963c8d1b6fcf0c312d5f97d5beebfaa8b93fd7b140c9
+#22 | Disconnected | 18.116.53.201
+
+#23 | Connected | 3.16.23.113
+Success | .dockerignore
+Success | Dockerfile
+Success | package.json
+Success | XPaths.csv
+Success | init.sh
+Success | Reset\config.json
+Success | Reset\Failed.csv
+Success | Reset\Retry.csv
+Success | Reset\Extract.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:da97d18da17ca21367b721b5b15d9aee86a1ebc502fa11c5d354ad9b2076482d
+Deleted: sha256:95f599ddc8ad85c4052e05a893420c681744510b1bb89fe8e901f5bd1e7f5b13
+Deleted: sha256:667b99569bd8b3680a189f1cb66b84bd8ac3f6a02cedfb552fbbc1d98da8e6fc
+Deleted: sha256:4ecd47b7df981988cef4e1e6faeabb38174fe5a7321ee19cd04585ec0ebbea96
+Deleted: sha256:236e615bad85de480c1286ae304ef7ba9160514e031f67548bf92dd3fbb987ba
+Deleted: sha256:3e0f8706d33a6e811d0946e40ec89cf76554995876cd20e07f9db6f296589875
+Deleted: sha256:f209624ecb7c491ab05369ff7232ab2bb224e4628c90709678634d3eac8ab0c3
+Deleted: sha256:93b7878dc0a73458a800bd51dc4dee2189fc8782783313380748403b0474eb1a
+Deleted: sha256:d402b908a096b308fa86c6d9e0de53552e5c6e6eb2d4bd4ed54e31c40721d942
+Deleted: sha256:e169450a4158064932bb730e3ad7d87aa583bbe33223838c65fbd8658a8a8fcd
+Deleted: sha256:26914d9b2d430bb79d8f1cf76d17a15d886c43c4b77c726b9c530bf85a240c54
+Deleted: sha256:7df36a68c979a078cf5e26041614d1949f12ab727d1a62f4c8d3163a364be65f
+Deleted: sha256:a4856f125fd0540225c9212469bfca322530c0d3f0d52a63f9e2fcf6a323a1b8
+Deleted: sha256:de8576843fcbcc4f6134d48d262a413043421ae86cce0c67abe98e4e63d0f765
+Deleted: sha256:24b3b80216efc0adeeadb1b31ff35f1616eea47070d56175427ed670be34e81d
+Deleted: sha256:f97a298ab0d463fc2551bd7a615c4ff02e147de481294bdd73de5bc2051037df
+Deleted: sha256:3fadc38c411fc1ba384f1a71f0fa2278a1589d0a449299a77b99433b87e7002f
+Deleted: sha256:c8df356ac1627c4150873d88a64854cb665f55acb15305fdba7662aa11012d47
+Deleted: sha256:17636c401c7f34d01ca22c63f91fb976ef7176ced039567c345c672fb4e48778
+Deleted: sha256:ad038f8d4d2e455820c0be315a3466d789c5f839bb8123e48ad7e6780a2fbf51
+Deleted: sha256:af66bb6295e17b94fbbe7b062ad0b2198e7aac3fdabf0e9abf383288490883e6
+Deleted: sha256:df435b068ee26fbfe8f9261556ed45ed4ed8ac1d3483cb1656ef9dfac28e701f
+Deleted: sha256:1c03f2705e6cb5c1292c3fa5c5237293821dd3d88e0ddd573c16c35562a9b2f9
+Deleted: sha256:d8a85dca631f277fc836b7d1e4746f1badad101a6f9e8960b90a33592a7d1a32
+Deleted: sha256:ccdf7e92f4660eda33460b5ddc74bb1733b637d507a40382448c08faf739e40e
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+f43038412ff04eab5f9915ac1b7864bb80f7f98faec6b5d7cca24cd31f6d3afc
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+671dbf9759f89ba0b77ed7a117e67176390764195544e29dfc890ed2e8936bc1
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+7196cfb0c0994fc55d2ba7183dd6a384b3a70d8da22c811e8c81cb0845e24b28
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+6d075d097c255854c17eff8f0675ec1281b7dad0dd328f7e19afccfde81a0b04
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+ba5caa039286ebe3420938123429dfb94e893866a64754376ea80d00f921a39e
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+2709e9a54720ed272b165bc5d2813b2814fcbb6344cd9326a02189edcf84b9db
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+ec34d4215b54cef3935afa9fb9ed6257c80102681114f9c601ad4f576edba985
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+d4eb392c5973934edefb48af5ed18fd64b11666fcce0ea7c91144e01b1044b51
+#23 | Disconnected | 3.16.23.113
+
+#24 | Connected | 3.139.55.229
+Success | .dockerignore
+Success | Dockerfile
+Success | init.sh
+Success | Reset\config.json
+Success | package.json
+Success | Reset\Extract.csv
+Success | XPaths.csv
+Success | Reset\Retry.csv
+Success | Reset\Failed.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:adc062a02704d9bc016f561c908a18f9cc63f4af64d711f8ae9b0252fb55532f
+Deleted: sha256:e9b51ef4e8a7961c4dcf58f1e83d4787a55b687dfd7043fd104c069a315a7f26
+Deleted: sha256:e751bd8e5d9bc6d4ed2b0a45c669c6585204b0d4008f7f91216a903195fd16e5
+Deleted: sha256:9cf1d82097630505a97800f915eba03df6989738433428e12114b29c0947e5de
+Deleted: sha256:3aa0f4b9149a35549ddd711096975147865bbbb3be7bd21166896de713d73334
+Deleted: sha256:63121e8d4da5f2dbdb7e3a2db9c61015058d331f0c312d3d980bd943ace9b772
+Deleted: sha256:bace9d1f9a89b42833f3a2ad8150d00b5c8baca9e3f8a19f272e6faed27962ee
+Deleted: sha256:781728ce4b5440f711ff4f12a6b999bb08fe1aa7581f7db33b35f994bed80f2e
+Deleted: sha256:30d9bc89a4d9a86eef8b75690d997ed81a1e2d08cf676974bd5437b65f74c720
+Deleted: sha256:7ec152d3d22ff3d38e40b466c48a84ef3ad6123511a5ff43087e810f9a2c0408
+Deleted: sha256:be55ad914c8048350c2f2d25fca13358303b3d1e1f5a1f06beabe4d24d02f864
+Deleted: sha256:e505a2081ac9e69b89f13d6e856b7a64b7e20a340a83b4c7921864a1a0eede72
+Deleted: sha256:edc529915bffe6fef36f4bed72bbbeeea2a75bb5e4ccd8ddc2a54a1b13035868
+Deleted: sha256:dc1e044e20806a48840c92e0e8000cfd4e5758c367bf20c16e2064b4e3dbdeda
+Deleted: sha256:615efb6fcaca9f400f44b7fce00e4e12091777218b7f2133ccd675a4e0bbbbf0
+Deleted: sha256:f9c5ac5614bc9339205458d2ab859de7f3bf76d0dfd529be2f929fefd9c6b4b3
+Deleted: sha256:1a260f89d2da7d025e0c4b34f5d3550755e8ca6b9974212315a82b9528202fcb
+Deleted: sha256:8870de5119a2567f4dacdf3899071ac965e740a169697c70e6ab80b208cf3fe9
+Deleted: sha256:e41e808048087aadabd50787acc9ca3588ee97242e3059d6c8edf7a12a6581b4
+Deleted: sha256:f18596bf5246a8bfffa2f0b1ba68960057b08b31434d0359dcb7145c99429fb2
+Deleted: sha256:e8f8b66b28bdd07356bf057485bb46af1c19ad1d2fc07cbb829b09f7a860f604
+Deleted: sha256:92ad3efaeff283eb0a985ea0e8bde23ae268ef6fd1f80ef0eebed78c599d881a
+Deleted: sha256:1c0c5938adcf20340d9f66cc5e04468c5bf0fa74035cccbace4fe0a7a4a5953e
+Deleted: sha256:afe7d312490f559f523051670244f4fe0be5137eaa4bf41840852a7b614969f5
+Deleted: sha256:6631dce31ead333ac1f7ef99ecfc0541fe48157f7c49c9d525e938220f23fe58
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+7dd5bfc49720d76073107cae3e66018d758796589afe5361d4e7d42aa0822be7
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+fa23c62cf0dae32ca9d1f1dc9c3777d9873a9a72c2a8b5b0076b774d3faa9077
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+39c699534bd24508d2cf3dd5e933f4f1b7c331b221fcd86341a47b28fa046679
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+aad8be5df29c08c79836c430f04dffc6ef9aecc4fc4574fedfc7fcdb050937c5
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+e907373537d7e7f26a9cb8a90a1d33f182aa95f1be5f1382ea5a1987b3710822
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+923c097ce497cbfa7af64746beb527c0f045cc893660e180e43e3fd81e0f2e0e
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+4387376b9f4182dec2497f7d0d8a8982fd030320242fd69d058d75fe6081cfec
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+5f34dcf321fd7c426e6a3ea3ae0684c92945b99cdcc0db227f5cdf0c2e21c197
+#24 | Disconnected | 3.139.55.229
+
+#25 | Connected | 18.116.25.152
+Success | .dockerignore
+Success | package.json
+Success | Dockerfile
+Success | init.sh
+Success | XPaths.csv
+Success | Reset\config.json
+Success | Reset\Extract.csv
+Success | Reset\Retry.csv
+Success | Reset\Failed.csv
+Success | demo.js
+$ sudo docker rmi -f demo
+Untagged: demo:latest
+Deleted: sha256:8bf5edc2e6c6e33aec6733457d0c2576c80e7c54d9d6a272bc418323573df745
+Deleted: sha256:bccf7b64673253062817041c43a30f7d3bcaffa6a92498fcb9a77a4af112678e
+Deleted: sha256:7e6663cfded77f6a8713aca58b1c73ac2dca550e5d53e3cdb01f4faa3f2beb09
+Deleted: sha256:fd3d1cacb96e36eb20df8865dfc0161caff3f05a02cb9cf7824fdd71beab082b
+Deleted: sha256:5ac7bc34a26434e72c4afdb82058d578f02ceef9b0110325557d62c55acfbbcb
+Deleted: sha256:697fae98e1f244d000f6a9addebb2b0783c86eec0b00baac3aec7d63f5f1c3d3
+Deleted: sha256:00a1844ba52358003997e9a397fd6afc8bfbad576b7e119a8f47569bb1ca4114
+Deleted: sha256:fc79197bda374cb0ccf1c027f5ceaa3516e2394762b7c53d98e079e2b56008ff
+Deleted: sha256:4fc03c44d83ee1235bc598305a823b4f860c7870bc57d57eb7287a37ae623a9c
+Deleted: sha256:bf6b903b58acefc10836cb4dee952ee81955c434b92780813fd71d3be6b16834
+Deleted: sha256:568db2ff7d3e3783c02e20e300630ed3d1742fc0713d622af5877d1b631db89e
+Deleted: sha256:e251c784bb36f0d9d535995c68729f7a8e99f4bcadaa6efade6cda40365a55b2
+Deleted: sha256:0b0b53fa16e0322b0ac49d3f975b62b8434dc22d2e4114ca2885c696a7c88d32
+Deleted: sha256:e11190bb7ea2508ebf32e50f132a451c615523d8c83535bfd9a52c2fb78db5a2
+Deleted: sha256:c819d2b9055ac3156b634780e322a3bd78020e5a152e8f8832e016a872cc2876
+Deleted: sha256:e275bfdea56d9922feba90ee6141d21fb694e396aad7638a6a8a6e7f3a989aa8
+Deleted: sha256:c27749d25b87d7d32264b7e9522babebb3ea975a270818d92c55caefb6b92cf3
+Deleted: sha256:d7091dbaa786a43e9dc03aa02e6b1bc7b9e57d506e29bffd20518de3378e7ea0
+Deleted: sha256:badad863b14dcddf256afc79af70227037e97ef083ed6700b8c27d03ea5d20d9
+Deleted: sha256:3a3f5c1a33154114056401b0217d0491a680bca636d61e5c4929d592aa49704f
+Deleted: sha256:2ac57553ee3f2efee2543691c0449e9f842aee117192f971e178a3a3cc7dc1b0
+Deleted: sha256:3b8d9320f8bd4c56ac1e103dbe8994deba03c9e43aa7c65eba65bef37cee95cc
+Deleted: sha256:4de209e928a3ea6afbc3b09d2eaadc9d7cb4830a980557f0a8cadffbbbdbf7eb
+Deleted: sha256:d236b5c3967eacde63cb26e5fcbae0afe6bb548ac3e83577a84ec47f05ca8564
+Deleted: sha256:d0b2923af09b676034402e2bae0aefceaee5f215e74e2566506015a0d77a9569
+$ sudo docker build -t demo ./demo
+
+$ sudo docker images
+
+$ sudo docker run -p 2001:8080 --name demo_1 -itd demo bash init.sh
+8c5a884f28fdc373cefcf033afb08685f5094db5958bab17b0a307800c561771
+$ sudo docker run -p 2002:8080 --name demo_2 -itd demo bash init.sh
+06a23443b92b18120b1542dea7b9eef956ec5858ae8b43e8c5c320e0af8c82de
+$ sudo docker run -p 2003:8080 --name demo_3 -itd demo bash init.sh
+3dd1a034c060381f62088df177e371ca507d3db583917f2731926500084d97a9
+$ sudo docker run -p 2004:8080 --name demo_4 -itd demo bash init.sh
+fd02c0541458940a229644ec89fc1ceec8958975d00ec7dc37be98eb42d26a75
+$ sudo docker run -p 2005:8080 --name demo_5 -itd demo bash init.sh
+44290e4c7c40ecfae66107926162e5123d144678888add1ce2dfbd2a985c454d
+$ sudo docker run -p 2006:8080 --name demo_6 -itd demo bash init.sh
+e270fa1486fa8e35c06f5baadcbe5448fa1277f8acae2fad223b52515be88bc3
+$ sudo docker run -p 2007:8080 --name demo_7 -itd demo bash init.sh
+ebe1175396dbb5be444d6382790fbfd0a9f44019bc00d47d23f7c2ff6e96614a
+$ sudo docker run -p 2008:8080 --name demo_8 -itd demo bash init.sh
+9a91ee48a7252a1f7f897198cabe620e076e9964ca01c99f9773a8354561ba05
+#25 | Disconnected | 18.116.25.152
+

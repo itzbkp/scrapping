@@ -1,0 +1,460 @@
+2020-11-22 17:58:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-22 17:58:58 - Started 15548
+2020-11-25 03:46:08 - Stopping portainerservice.exe
+2020-11-25 03:46:08 - ProcessKill 15548
+2020-11-25 03:46:08 - Found child process: 21884 Name: conhost.exe
+2020-11-25 03:46:08 - Found child process: 568 Name: node.exe
+2020-11-25 03:46:09 - Stopping process 21884
+2020-11-25 03:46:09 - Send SIGINT 21884
+2020-11-25 03:46:09 - SIGINT to 21884 failed - Killing as fallback
+2020-11-25 03:46:09 - Stopping process 568
+2020-11-25 03:46:09 - Send SIGINT 568
+2020-11-25 03:46:09 - SIGINT to 568 failed - Killing as fallback
+2020-11-25 03:46:09 - Stopping process 15548
+2020-11-25 03:46:09 - Send SIGINT 15548
+2020-11-25 03:46:09 - SIGINT to 15548 failed - Killing as fallback
+2020-11-25 03:46:09 - Finished portainerservice.exe
+2020-11-25 03:46:09 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-25 03:46:10 - Started 17068
+2020-11-26 13:48:28 - Stopping portainerservice.exe
+2020-11-26 13:48:28 - ProcessKill 17068
+2020-11-26 13:48:29 - Found child process: 35468 Name: conhost.exe
+2020-11-26 13:48:29 - Found child process: 41848 Name: node.exe
+2020-11-26 13:48:29 - Stopping process 35468
+2020-11-26 13:48:29 - Send SIGINT 35468
+2020-11-26 13:48:29 - SIGINT to 35468 failed - Killing as fallback
+2020-11-26 13:48:30 - Stopping process 41848
+2020-11-26 13:48:30 - Send SIGINT 41848
+2020-11-26 13:48:30 - SIGINT to 41848 failed - Killing as fallback
+2020-11-26 13:48:30 - Stopping process 17068
+2020-11-26 13:48:30 - Send SIGINT 17068
+2020-11-26 13:48:30 - SIGINT to 17068 failed - Killing as fallback
+2020-11-26 13:48:30 - Finished portainerservice.exe
+2020-11-26 14:11:49 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-26 14:11:49 - Started 15056
+2020-11-28 12:17:14 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2020-11-28 12:17:14 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-28 12:17:15 - Started 5712
+2020-12-02 16:22:28 - Stopping portainerservice.exe
+2020-12-02 16:22:29 - ProcessKill 5712
+2020-12-02 16:22:43 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-04 11:11:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-04 11:11:06 - Started 7848
+2020-12-04 11:12:51 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2020-12-04 11:12:51 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-04 11:12:52 - Started 8272
+2020-12-10 14:10:57 - Stopping portainerservice.exe
+2020-12-10 14:10:58 - ProcessKill 8272
+2020-12-10 14:11:07 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-10 14:13:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-10 14:13:33 - Started 8604
+2020-12-15 00:34:53 - Stopping portainerservice.exe
+2020-12-15 00:34:54 - ProcessKill 8604
+2020-12-15 00:35:14 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-15 11:48:37 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-15 11:48:39 - Started 10152
+2020-12-21 10:29:02 - Stopping portainerservice.exe
+2020-12-21 10:29:03 - ProcessKill 10152
+2020-12-21 10:29:17 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-21 10:31:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-21 10:31:52 - Started 10128
+2020-12-21 20:53:54 - Stopping portainerservice.exe
+2020-12-21 20:53:55 - ProcessKill 10128
+2020-12-21 20:54:04 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-21 20:57:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-21 20:57:10 - Started 7832
+2020-12-24 18:05:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-24 18:05:10 - Started 6568
+2020-12-31 20:53:37 - Stopping portainerservice.exe
+2020-12-31 20:53:38 - ProcessKill 6568
+2020-12-31 20:54:02 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-12-31 23:25:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-12-31 23:26:00 - Started 4924
+2021-01-01 11:15:10 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2021-01-01 11:15:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-01 11:15:10 - Started 9104
+2021-01-09 18:22:06 - Stopping portainerservice.exe
+2021-01-09 18:22:08 - ProcessKill 9104
+2021-01-09 18:22:17 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-09 18:23:54 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-09 18:23:55 - Started 7996
+2021-01-14 17:05:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-14 17:05:33 - Started 7472
+2021-01-17 13:00:37 - Stopping portainerservice.exe
+2021-01-17 13:00:37 - ProcessKill 7472
+2021-01-17 13:00:47 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-17 13:28:50 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-17 13:28:50 - Started 7208
+2021-01-17 13:31:32 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2021-01-17 13:31:33 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-17 13:31:33 - Started 8036
+2021-01-24 20:05:37 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2021-01-24 20:05:37 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-24 20:05:37 - Started 4704
+2021-01-25 08:55:37 - Stopping portainerservice.exe
+2021-01-25 08:55:38 - ProcessKill 4704
+2021-01-25 08:55:50 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-25 08:57:23 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-25 08:57:24 - Started 7536
+2021-01-30 15:46:49 - Stopping portainerservice.exe
+2021-01-30 15:46:50 - ProcessKill 7536
+2021-01-30 15:47:02 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-30 15:48:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-30 15:48:33 - Started 7340
+2021-02-06 18:18:07 - Stopping portainerservice.exe
+2021-02-06 18:18:08 - ProcessKill 7340
+2021-02-06 18:18:31 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-02-06 18:20:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-06 18:20:40 - Started 8776
+2021-02-08 20:17:08 - Stopping portainerservice.exe
+2021-02-08 20:17:08 - ProcessKill 8776
+2021-02-08 20:17:17 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-02-08 20:29:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-08 20:29:08 - Started 11660
+2021-02-08 20:34:39 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-08 20:34:40 - Started 9440
+2021-02-10 12:39:46 - Stopping portainerservice.exe
+2021-02-10 12:39:47 - ProcessKill 9440
+2021-02-10 12:40:03 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-02-17 10:43:12 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-17 10:43:13 - Started 8360
+2021-02-17 10:51:59 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2021-02-17 10:51:59 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-17 10:51:59 - Started 10396
+2021-02-19 20:57:49 - Stopping portainerservice.exe
+2021-02-19 20:57:49 - ProcessKill 10396
+2021-02-19 20:58:11 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-02-19 21:01:12 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-19 21:01:13 - Started 8712
+2021-02-21 00:02:02 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2021-02-21 00:02:02 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-21 00:02:02 - Started 9260
+2021-02-27 12:48:50 - Failed to log event in Windows Event Log: Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined; Reason: 
+Message:The handle is invalid
+Stacktrace:   at System.Diagnostics.EventLog.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at winsw.WrapperService.LogEvent(String message)
+2021-02-27 12:48:51 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-27 12:48:51 - Started 6864
+2021-03-02 23:57:26 - Stopping portainerservice.exe
+2021-03-02 23:57:26 - ProcessKill 6864
+2021-03-02 23:57:48 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-03-02 23:59:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-03-02 23:59:49 - Started 8292
+2021-03-15 12:13:41 - Stopping portainerservice.exe
+2021-03-15 12:13:42 - ProcessKill 8292
+2021-03-15 12:14:04 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-03-15 12:16:20 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-03-15 12:16:25 - Started 8056
+2021-03-25 17:38:05 - Stopping portainerservice.exe
+2021-03-25 17:38:06 - ProcessKill 8056
+2021-03-25 17:38:15 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-03-25 18:01:34 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-03-25 18:01:35 - Started 7988
+2021-03-25 18:15:20 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-03-25 18:15:20 - Started 7748
+2021-04-13 19:01:03 - Stopping portainerservice.exe
+2021-04-13 19:01:04 - ProcessKill 7748
+2021-04-13 19:01:15 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-04-13 19:11:19 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-13 19:11:20 - Started 4892
+2021-04-14 10:23:14 - Stopping portainerservice.exe
+2021-04-14 10:23:15 - ProcessKill 4892
+2021-04-14 10:23:26 - Shutdown exception
+Message:The type initializer for 'System.Management.ManagementPath' threw an exception.
+Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope, IdentifierChangedEventHandler handler)
+   at System.Management.ManagementObjectSearcher..ctor(ManagementScope scope, ObjectQuery query, EnumerationOptions options)
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-04-14 10:26:26 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-14 10:26:26 - Started 7116
+2021-04-14 12:23:08 - Stopping portainerservice.exe
+2021-04-14 12:23:08 - ProcessKill 7116
+2021-04-14 12:23:29 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-04-14 12:26:10 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-14 12:26:11 - Started 9992
+2021-04-16 15:49:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-16 15:49:23 - Started 8436
+2021-04-19 01:29:02 - Stopping portainerservice.exe
+2021-04-19 01:29:02 - ProcessKill 8436
+2021-04-19 01:29:03 - Found child process: 8776 Name: conhost.exe
+2021-04-19 01:29:03 - Found child process: 9136 Name: node.exe
+2021-04-19 01:29:03 - Stopping process 8776
+2021-04-19 01:29:03 - Send SIGINT 8776
+2021-04-19 01:29:03 - SIGINT to 8776 failed - Killing as fallback
+2021-04-19 01:29:04 - Stopping process 9136
+2021-04-19 01:29:04 - Send SIGINT 9136
+2021-04-19 01:29:04 - SIGINT to 9136 failed - Killing as fallback
+2021-04-19 01:29:04 - Stopping process 8436
+2021-04-19 01:29:04 - Send SIGINT 8436
+2021-04-19 01:29:04 - SIGINT to 8436 failed - Killing as fallback
+2021-04-19 01:29:04 - Finished portainerservice.exe
+2021-04-19 01:29:04 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-19 01:29:04 - Started 22232
+2021-04-19 01:34:02 - Stopping portainerservice.exe
+2021-04-19 01:34:02 - ProcessKill 22232
+2021-04-19 01:34:02 - Found child process: 18900 Name: conhost.exe
+2021-04-19 01:34:02 - Found child process: 19564 Name: node.exe
+2021-04-19 01:34:03 - Stopping process 18900
+2021-04-19 01:34:03 - Send SIGINT 18900
+2021-04-19 01:34:03 - SIGINT to 18900 failed - Killing as fallback
+2021-04-19 01:34:03 - Stopping process 19564
+2021-04-19 01:34:03 - Send SIGINT 19564
+2021-04-19 01:34:03 - SIGINT to 19564 failed - Killing as fallback
+2021-04-19 01:34:03 - Stopping process 22232
+2021-04-19 01:34:03 - Send SIGINT 22232
+2021-04-19 01:34:03 - SIGINT to 22232 failed - Killing as fallback
+2021-04-19 01:34:03 - Finished portainerservice.exe
+2021-04-19 01:34:05 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-19 01:34:05 - Started 23884
+2021-04-19 01:34:08 - Stopping portainerservice.exe
+2021-04-19 01:34:08 - ProcessKill 23884
+2021-04-19 01:34:08 - Found child process: 5848 Name: conhost.exe
+2021-04-19 01:34:08 - Found child process: 2916 Name: node.exe
+2021-04-19 01:34:08 - Stopping process 5848
+2021-04-19 01:34:09 - Send SIGINT 5848
+2021-04-19 01:34:09 - SIGINT to 5848 failed - Killing as fallback
+2021-04-19 01:34:09 - Stopping process 2916
+2021-04-19 01:34:09 - Send SIGINT 2916
+2021-04-19 01:34:09 - SIGINT to 2916 failed - Killing as fallback
+2021-04-19 01:34:09 - Stopping process 23884
+2021-04-19 01:34:09 - Send SIGINT 23884
+2021-04-19 01:34:09 - SIGINT to 23884 failed - Killing as fallback
+2021-04-19 01:34:09 - Finished portainerservice.exe
+2021-04-19 01:34:38 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-19 01:34:38 - Started 17896
+2021-04-20 22:01:12 - Stopping portainerservice.exe
+2021-04-20 22:01:13 - ProcessKill 17896
+2021-04-20 22:01:35 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-04-20 22:05:01 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\demo\app-monitor\node_modules\node-windows\lib\wrapper.js --file C:\demo\app-monitor\app.js --scriptoptions= --log "Portainer Service wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-20 22:05:02 - Started 8672
