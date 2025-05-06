@@ -13,4 +13,4 @@ This project is a data scraping and analysis tool developed for a UK-based clien
 Author \
 Barun Patro \
 📫 mr.n.bkp@gmail.com \
-🔗 [linkedin/itzbkp](linkedin.com/in/itzbkp)
+🔗 [linkedin/itzbkp](https://www.linkedin.com/in/itzbkp)
